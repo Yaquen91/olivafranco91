@@ -67,8 +67,8 @@ export function Hero() {
             <ArrowUpRight className="h-4 w-4 text-muted-foreground transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
           </a>
         </div>
-
-        <dl className="fade-up mt-16 grid max-w-2xl grid-cols-2 gap-x-8 gap-y-8 border-t border-border pt-10 sm:grid-cols-4">
+        {/* Comentamos datos falsos para reemplazarlos por reales en un futuro */}
+        {/* <dl className="fade-up mt-16 grid max-w-2xl grid-cols-2 gap-x-8 gap-y-8 border-t border-border pt-10 sm:grid-cols-4">
           {[
             { value: '8+', label: 'Años con Unreal Engine' },
             { value: '40+', label: 'Herramientas y sistemas publicados' },
@@ -84,7 +84,7 @@ export function Hero() {
               </dd>
             </div>
           ))}
-        </dl>
+        </dl> */}
       </div>
     </section>
   )
