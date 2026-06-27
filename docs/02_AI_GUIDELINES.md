@@ -7,6 +7,19 @@
 
 ---
 
+# Reglas frontend
+
+- Mantener Server Components por defecto.
+- Usar `"use client"` solo cuando sea necesario: estado, efectos, eventos del navegador o APIs del cliente.
+- No convertir componentes a Client Components sin justificación.
+- En Next.js 15/16, tratar `params`, `searchParams`, `cookies()`, `headers()` y `draftMode()` como APIs asíncronas cuando corresponda.
+- No desactivar TypeScript ni ignorar errores de build.
+- No agregar dependencias para resolver problemas simples.
+- Priorizar componentes pequeños, legibles y reutilizables.
+- Mantener contenido separado de la presentación cuando una sección empiece a crecer.
+- Usar `next/image` para imágenes reales cuando sea posible.
+- Revisar accesibilidad básica: labels, aria, contraste, foco visible y navegación por teclado.
+
 # Objetivo
 
 Este documento define cómo debe trabajar cualquier asistente de IA dentro del proyecto **Franco Brand**.
