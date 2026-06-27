@@ -27,6 +27,20 @@ El foco de la marca no es únicamente enseñar Unreal Engine, sino ayudar a cons
 * Tailwind CSS
 * shadcn/ui
 * Lucide Icons
+* pnpm
+
+---
+
+## Desarrollo local
+
+El proyecto utiliza pnpm 11.9.0 como gestor de paquetes.
+
+```powershell
+pnpm install --frozen-lockfile
+pnpm run dev
+```
+
+La aplicación estará disponible en `http://localhost:3000`.
 
 ---
 
