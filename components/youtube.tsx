@@ -3,25 +3,25 @@ import { SectionHeading } from './section-heading'
 
 const videos = [
   {
-    title: 'Designing a Clean Blueprint Ability System',
+    title: 'Cómo diseñar un sistema de habilidades Blueprint ordenado',
     length: '24:10',
-    category: 'Gameplay Systems',
+    category: 'Sistemas de gameplay',
     description:
-      'A walkthrough of structuring abilities so designers can extend them without touching engineer-owned code.',
+      'Un recorrido por la estructura de habilidades para que los diseñadores puedan ampliarlas sin modificar código gestionado por ingeniería.',
   },
   {
-    title: 'Editor Utility Widgets From Scratch',
+    title: 'Editor Utility Widgets desde cero',
     length: '18:42',
     category: 'Editor Tools',
     description:
-      'Building a practical level-validation tool that catches mistakes before they reach QA.',
+      'Creación de una herramienta práctica de validación de niveles que detecta errores antes de que lleguen a QA.',
   },
   {
-    title: 'Profiling Unreal with Insights',
+    title: 'Análisis de Unreal con Insights',
     length: '31:05',
-    category: 'Optimization',
+    category: 'Optimización',
     description:
-      'How to read a trace, find the real bottleneck and fix tick-bound performance issues.',
+      'Cómo interpretar una traza, encontrar el verdadero cuello de botella y resolver problemas de rendimiento vinculados al Tick.',
   },
 ]
 
@@ -33,14 +33,14 @@ export function YouTube() {
           <SectionHeading
             index="05"
             eyebrow="YouTube"
-            title="Selected educational videos."
-            description="A focused library that favors depth over volume — each video breaks down one real technique end to end."
+            title="Videos educativos seleccionados."
+            description="Una biblioteca enfocada que prioriza la profundidad sobre la cantidad. Cada video explica una técnica real de principio a fin."
           />
           <a
             href="#"
             className="group inline-flex shrink-0 items-center gap-2 rounded-md border border-border bg-card/60 px-4 py-2.5 text-sm font-medium transition-colors hover:bg-secondary"
           >
-            Visit channel
+            Visitar el canal
             <ArrowUpRight className="h-4 w-4 text-muted-foreground transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
           </a>
         </div>

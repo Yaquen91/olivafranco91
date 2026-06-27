@@ -8,12 +8,12 @@ export function SiteFooter() {
           </span>
           <span className="font-medium">Franco</span>
           <span className="font-mono text-xs text-muted-foreground">
-            / Unreal Engine Developer
+            / Desarrollador de Unreal Engine
           </span>
         </div>
 
         <p className="text-sm text-muted-foreground">
-          © {new Date().getFullYear()} Franco. Built with Next.js.
+          © {new Date().getFullYear()} Franco. Creado con Next.js.
         </p>
       </div>
     </footer>

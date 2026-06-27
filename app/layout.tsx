@@ -10,22 +10,22 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'Franco — Unreal Engine Developer & Technical Instructor',
+  title: 'Franco — Desarrollador de Unreal Engine e instructor técnico',
   description:
-    'Unreal Engine developer, Blueprint specialist and technical instructor building production-grade gameplay systems, editor tools and developer workflows — and teaching teams how to do the same.',
+    'Desarrollador de Unreal Engine, especialista en Blueprint e instructor técnico. Creo sistemas de gameplay, Editor Tools y flujos de trabajo listos para producción, y enseño a los equipos a hacer lo mismo.',
   generator: 'v0.app',
   keywords: [
     'Unreal Engine',
     'Blueprint',
-    'Gameplay Systems',
+    'Sistemas de gameplay',
     'Editor Tools',
-    'Technical Instructor',
+    'Instructor técnico',
     'Epic Authorized Instructor',
   ],
   openGraph: {
-    title: 'Franco — Unreal Engine Developer & Technical Instructor',
+    title: 'Franco — Desarrollador de Unreal Engine e instructor técnico',
     description:
-      'Production-grade Unreal Engine systems and technical training for studios, teams and developers.',
+      'Sistemas de Unreal Engine listos para producción y formación técnica para estudios, equipos y desarrolladores.',
     type: 'website',
   },
 }
@@ -42,7 +42,7 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      lang="en"
+      lang="es"
       className={`${geistSans.variable} ${geistMono.variable} bg-background`}
     >
       <body className="font-sans antialiased">

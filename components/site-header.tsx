@@ -3,10 +3,10 @@
 import { useEffect, useState } from 'react'
 
 const navItems = [
-  { label: 'About', href: '#about' },
-  { label: 'How I Help', href: '#expertise' },
-  { label: 'Projects', href: '#projects' },
-  { label: 'Teaching', href: '#teaching' },
+  { label: 'Sobre mí', href: '#about' },
+  { label: 'Cómo ayudo', href: '#expertise' },
+  { label: 'Proyectos', href: '#projects' },
+  { label: 'Formación', href: '#teaching' },
   { label: 'Videos', href: '#youtube' },
 ]
 
@@ -39,7 +39,7 @@ export function SiteHeader() {
           </span>
           <span>Franco</span>
           <span className="hidden font-mono text-xs text-muted-foreground sm:inline">
-            / UE Developer
+            / Desarrollador UE
           </span>
         </a>
 
@@ -60,11 +60,11 @@ export function SiteHeader() {
             href="#contact"
             className="hidden rounded-md bg-foreground px-4 py-2 text-sm font-medium text-background transition-opacity hover:opacity-90 sm:inline-block"
           >
-            Work With Me
+            Trabajemos juntos
           </a>
           <button
             type="button"
-            aria-label="Toggle menu"
+            aria-label="Abrir o cerrar menú"
             aria-expanded={open}
             onClick={() => setOpen((v) => !v)}
             className="flex h-9 w-9 items-center justify-center rounded-md border border-border md:hidden"
@@ -99,7 +99,7 @@ export function SiteHeader() {
               onClick={() => setOpen(false)}
               className="mt-2 rounded-md bg-foreground px-3 py-2.5 text-center text-sm font-medium text-background"
             >
-              Work With Me
+              Trabajemos juntos
             </a>
           </div>
         </nav>

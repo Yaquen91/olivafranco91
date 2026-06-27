@@ -13,37 +13,37 @@ const areas = [
   {
     icon: PenTool,
     title: 'Editor Tools',
-    body: 'Custom editor utilities that remove tedious, error-prone work so developers can focus on building the actual game.',
+    body: 'Utilidades de editor personalizadas que eliminan tareas tediosas y propensas a errores para que los desarrolladores puedan concentrarse en crear el juego.',
   },
   {
     icon: LayoutPanelLeft,
     title: 'Utility Widgets',
-    body: 'Editor and runtime widgets that give designers and artists safe, self-serve control — fewer engineering bottlenecks for everyone.',
+    body: 'Widgets de editor y ejecución que brindan a diseñadores y artistas un control seguro y autónomo, con menos cuellos de botella de ingeniería para todos.',
   },
   {
     icon: Workflow,
-    title: 'Automation',
-    body: 'Automating repetitive tasks, validation and asset processing so teams spend their time on creative work, not busywork.',
+    title: 'Automatización',
+    body: 'Automatización de tareas repetitivas, validaciones y procesamiento de recursos para que los equipos dediquen su tiempo al trabajo creativo, no a tareas mecánicas.',
   },
   {
     icon: GitBranch,
-    title: 'Developer Workflows',
-    body: 'Version control, project structure and tooling conventions that keep Unreal projects healthy and easy to work in as they scale.',
+    title: 'Flujos de trabajo para desarrolladores',
+    body: 'Control de versiones, estructura de proyectos y convenciones de herramientas que mantienen los proyectos de Unreal sólidos y fáciles de gestionar a medida que crecen.',
   },
   {
     icon: Gauge,
-    title: 'Pipeline Optimization',
-    body: 'Profiling and reworking the slow parts of a production pipeline so iteration is faster and performance stays predictable.',
+    title: 'Optimización del pipeline',
+    body: 'Análisis y mejora de las partes lentas del pipeline de producción para acelerar la iteración y mantener un rendimiento predecible.',
   },
   {
     icon: Boxes,
     title: 'Blueprint Architecture',
-    body: 'Readable, component-driven Blueprint systems a whole team can extend and maintain — not spaghetti that only one person understands.',
+    body: 'Sistemas Blueprint legibles y basados en componentes que todo el equipo puede ampliar y mantener, no código espagueti que solo una persona entiende.',
   },
   {
     icon: GraduationCap,
-    title: 'Technical Training',
-    body: 'Practical instruction grounded in real production experience that helps developers apply better practices immediately.',
+    title: 'Formación técnica',
+    body: 'Enseñanza práctica basada en experiencia real de producción que ayuda a los desarrolladores a aplicar mejores prácticas de inmediato.',
   },
 ]
 
@@ -53,9 +53,9 @@ export function Expertise() {
       <div className="mx-auto max-w-6xl px-6 py-24 md:py-28">
         <SectionHeading
           index="02"
-          eyebrow="How I Help"
-          title="The value I bring to a team."
-          description="Less about what I know, more about what changes when I'm involved: better tools, smoother workflows and developers who can move faster with confidence."
+          eyebrow="Cómo ayudo"
+          title="El valor que aporto a un equipo."
+          description="No se trata tanto de lo que sé, sino de lo que cambia cuando participo: mejores herramientas, flujos de trabajo más fluidos y desarrolladores capaces de avanzar más rápido y con confianza."
         />
 
         <div className="mt-14 grid gap-px overflow-hidden rounded-xl border border-border bg-border sm:grid-cols-2 lg:grid-cols-3">
@@ -79,9 +79,9 @@ export function Expertise() {
           {/* Filler cell to complete the grid on lg */}
           <div className="hidden items-center bg-card p-6 lg:flex">
             <p className="font-mono text-xs leading-relaxed text-muted-foreground">
-              {'// More resources, courses and articles'}
+              {'// Próximamente habrá más recursos,'}
               <br />
-              {'// coming to this space soon.'}
+              {'// cursos y artículos en este espacio.'}
             </p>
           </div>
         </div>

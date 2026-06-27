@@ -3,59 +3,59 @@ import { SectionHeading } from './section-heading'
 const projects = [
   {
     id: 'GAS-01',
-    title: 'Modular Ability System Framework',
-    tag: 'Gameplay Architecture',
+    title: 'Framework modular de Gameplay Ability System',
+    tag: 'Arquitectura de gameplay',
     problem:
-      'A studio needed combat abilities that designers could author without engineer support, but the existing setup hard-coded every skill into character classes.',
+      'Un estudio necesitaba habilidades de combate que los diseñadores pudieran crear sin asistencia de ingeniería, pero la implementación existente integraba cada habilidad directamente en las clases de los personajes.',
     solution:
-      'Designed a data-driven ability framework on top of the Gameplay Ability System with Blueprint-exposed effect graphs, a tag-based targeting layer and a reusable cooldown/cost model.',
+      'Diseñé un framework de habilidades basado en datos sobre Gameplay Ability System, con grafos de Gameplay Effects expuestos a Blueprint, una capa de selección de objetivos basada en Gameplay Tags y un modelo reutilizable de cooldown y cost.',
     impact:
-      'New abilities went from a multi-day engineering task to a same-day designer task, cutting combat iteration time by roughly 70% and freeing engineers for deeper work.',
+      'Las nuevas habilidades pasaron de requerir varios días de ingeniería a poder ser creadas por un diseñador en el mismo día. Esto redujo cerca de un 70 % el tiempo de iteración del combate y liberó a los ingenieros para tareas más complejas.',
     lessons:
-      'The biggest win wasn\u2019t the code — it was handing ownership back to designers. Building for the people who use a system daily matters more than technical elegance.',
-    tech: ['C++', 'GAS', 'Blueprints', 'Gameplay Tags', 'DataAssets'],
+      'El mayor logro no fue el código, sino devolverles el control a los diseñadores. Crear para quienes usan un sistema a diario importa más que la elegancia técnica.',
+    tech: ['C++', 'GAS', 'Blueprints', 'Gameplay Tags', 'Data Assets'],
   },
   {
     id: 'TOOL-02',
-    title: 'Level Validation Editor Toolkit',
-    tag: 'Editor Tooling',
+    title: 'Kit de herramientas para validar niveles',
+    tag: 'Editor Tools',
     problem:
-      'Level artists kept shipping maps with missing nav data, broken references and inconsistent naming that only surfaced late in QA.',
+      'Los artistas de niveles entregaban mapas con datos de navegación faltantes, referencias rotas y nombres inconsistentes que recién se detectaban en etapas avanzadas de QA.',
     solution:
-      'Built an Editor Utility Widget suite that scans levels against a configurable ruleset, reports issues inline and offers one-click auto-fixes for the common cases.',
+      'Creé una suite de Editor Utility Widgets que analiza los niveles según un conjunto de reglas configurable, informa los problemas en contexto y ofrece correcciones automáticas con un clic para los casos habituales.',
     impact:
-      'Level-related QA tickets dropped sharply and onboarding new artists became dramatically faster thanks to conventions the tooling enforced automatically.',
+      'Los reportes de QA relacionados con niveles disminuyeron notablemente y la incorporación de nuevos artistas se aceleró gracias a las convenciones que las herramientas aplicaban de forma automática.',
     lessons:
-      'A small tool that runs at the right moment prevents far more pain than documentation ever will. Automating the check beats reminding people to do it.',
+      'Una pequeña herramienta que actúa en el momento adecuado evita muchos más problemas que la documentación. Automatizar la verificación es mejor que recordarles a las personas que deben hacerla.',
     tech: ['Editor Utility Widgets', 'Python', 'Blueprints', 'Slate'],
   },
   {
     id: 'PERF-03',
-    title: 'Open-World Streaming Optimization',
-    tag: 'Performance',
+    title: 'Optimización del streaming de mundo abierto',
+    tag: 'Rendimiento',
     problem:
-      'An open-world prototype dropped below 30 FPS on target hardware, with hitches during world streaming and a bloated tick budget.',
+      'Un prototipo de mundo abierto caía por debajo de 30 FPS en el hardware objetivo, con interrupciones durante el streaming del mundo y un presupuesto de Tick excesivo.',
     solution:
-      'Profiled with Unreal Insights, restructured actor tick groups, introduced significance-based LODs and reworked Blueprint update loops into event-driven logic.',
+      'Analicé el rendimiento con Unreal Insights, reestructuré los Actor Tick Groups, incorporé LOD basados en relevancia y convertí los bucles de actualización de Blueprint en lógica orientada a eventos.',
     impact:
-      'Locked a stable 60 FPS on target hardware, eliminated streaming hitches and gave the team a repeatable profiling workflow to keep performance in check.',
+      'Logré 60 FPS estables en el hardware objetivo, eliminé las interrupciones del streaming y proporcioné al equipo un flujo de análisis reproducible para mantener el rendimiento bajo control.',
     lessons:
-      'Optimization is a workflow, not a one-off fix. Leaving the team with a way to measure and reason about performance outlasts any single tuning pass.',
-    tech: ['Unreal Insights', 'World Partition', 'C++', 'LOD Strategy'],
+      'La optimización es un flujo de trabajo, no una corrección aislada. Darle al equipo una forma de medir y comprender el rendimiento aporta más valor que cualquier ajuste puntual.',
+    tech: ['Unreal Insights', 'World Partition', 'C++', 'Estrategia de LOD'],
   },
   {
     id: 'EDU-04',
-    title: 'Production-to-Curriculum Pipeline',
-    tag: 'Teaching System',
+    title: 'Pipeline de producción a plan de estudios',
+    tag: 'Sistema de enseñanza',
     problem:
-      'Teams wanted training that mirrored their real codebase, but generic courses taught patterns that did not match production constraints.',
+      'Los equipos buscaban una formación que reflejara su código real, pero los cursos genéricos enseñaban patrones que no se ajustaban a las limitaciones de producción.',
     solution:
-      'Created a methodology that turns shipped systems into progressive, hands-on lessons — each module rebuilds a real feature with documented decisions and trade-offs.',
+      'Creé una metodología que convierte sistemas publicados en lecciones prácticas y progresivas. Cada módulo reconstruye una funcionalidad real con sus decisiones y concesiones documentadas.',
     impact:
-      'Trained 2,000+ developers with material that maps directly to their own workflows, measurably improving how quickly teams ship after training.',
+      'Capacité a más de 2000 desarrolladores con material directamente aplicable a sus propios flujos de trabajo, mejorando de forma medible la velocidad de entrega de los equipos después de la formación.',
     lessons:
-      'People apply what mirrors their reality. Teaching from real, shipped systems — constraints and all — sticks far better than idealized examples.',
-    tech: ['Curriculum Design', 'Live Instruction', 'Blueprints', 'C++'],
+      'Las personas aplican aquello que refleja su realidad. Enseñar a partir de sistemas reales y publicados, con todas sus limitaciones, deja una huella mucho mayor que los ejemplos idealizados.',
+    tech: ['Diseño curricular', 'Clases en vivo', 'Blueprints', 'C++'],
   },
 ]
 
@@ -65,9 +65,9 @@ export function Projects() {
       <div className="mx-auto max-w-6xl px-6 py-24 md:py-28">
         <SectionHeading
           index="03"
-          eyebrow="Featured Projects"
-          title="Technical case studies, not screenshots."
-          description="Each of these solved a real production problem or improved how a team works. The pattern is always the same: the constraint, what I built, the outcome and what I took away from it."
+          eyebrow="Proyectos destacados"
+          title="Casos de estudio técnicos, no capturas de pantalla."
+          description="Cada proyecto resolvió un problema real de producción o mejoró la forma de trabajar de un equipo. El patrón siempre es el mismo: la limitación, lo que construí, el resultado y lo que aprendí."
         />
 
         <div className="mt-14 grid gap-6 lg:grid-cols-2">
@@ -91,10 +91,10 @@ export function Projects() {
 
               <dl className="mt-6 space-y-4 border-t border-border pt-6">
                 {[
-                  { k: 'Problem', v: project.problem },
-                  { k: 'Solution', v: project.solution },
-                  { k: 'Impact', v: project.impact },
-                  { k: 'Lessons', v: project.lessons },
+                  { k: 'Problema', v: project.problem },
+                  { k: 'Solución', v: project.solution },
+                  { k: 'Impacto', v: project.impact },
+                  { k: 'Lecciones', v: project.lessons },
                 ].map((row) => (
                   <div key={row.k} className="grid grid-cols-[80px_1fr] gap-3">
                     <dt className="font-mono text-xs uppercase tracking-wider text-muted-foreground">

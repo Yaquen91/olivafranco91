@@ -26,26 +26,26 @@ export function Hero() {
             <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-primary opacity-75" />
             <span className="relative inline-flex h-1.5 w-1.5 rounded-full bg-primary" />
           </span>
-          Available for studio work, consulting & training
+          Disponible para estudios, consultoría y formación
         </div>
 
         <h1
           className="fade-up mt-8 max-w-4xl text-balance font-heading text-4xl font-semibold leading-[1.05] tracking-tight sm:text-6xl md:text-7xl"
           style={{ animationDelay: '60ms' }}
         >
-          Helping developers build better{' '}
-          <span className="text-primary">Unreal Engine</span> projects.
+          Ayudo a desarrolladores a crear mejores proyectos con{' '}
+          <span className="text-primary">Unreal Engine</span>.
         </h1>
 
         <p
           className="fade-up mt-6 max-w-2xl text-pretty text-lg leading-relaxed text-muted-foreground"
           style={{ animationDelay: '120ms' }}
         >
-          I&apos;m Franco, an Unreal Engine developer, tool builder and
-          technical instructor. I help developers and studios become more
-          productive — building better tools, better workflows and better
-          development practices, then turning that experience into practical
-          technical education.
+          Soy Franco, desarrollador de Unreal Engine, creador de herramientas e
+          instructor técnico. Ayudo a desarrolladores y estudios a ser más
+          productivos mediante mejores herramientas, flujos de trabajo y
+          prácticas de desarrollo, y convierto esa experiencia en formación
+          técnica práctica.
         </p>
 
         <div
@@ -56,24 +56,24 @@ export function Hero() {
             href="#projects"
             className="group inline-flex items-center justify-center gap-2 rounded-md bg-foreground px-5 py-3 text-sm font-medium text-background transition-opacity hover:opacity-90"
           >
-            View Projects
+            Ver proyectos
             <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
           </a>
           <a
             href="#contact"
             className="group inline-flex items-center justify-center gap-2 rounded-md border border-border bg-card/60 px-5 py-3 text-sm font-medium text-foreground transition-colors hover:bg-secondary"
           >
-            Work With Me
+            Trabajemos juntos
             <ArrowUpRight className="h-4 w-4 text-muted-foreground transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
           </a>
         </div>
 
         <dl className="fade-up mt-16 grid max-w-2xl grid-cols-2 gap-x-8 gap-y-8 border-t border-border pt-10 sm:grid-cols-4">
           {[
-            { value: '8+', label: 'Years with Unreal Engine' },
-            { value: '40+', label: 'Tools & systems shipped' },
-            { value: '2K+', label: 'Developers helped' },
-            { value: 'Tools', label: 'Workflows & training' },
+            { value: '8+', label: 'Años con Unreal Engine' },
+            { value: '40+', label: 'Herramientas y sistemas publicados' },
+            { value: '2K+', label: 'Desarrolladores ayudados' },
+            { value: 'Herramientas', label: 'Flujos de trabajo y formación' },
           ].map((stat) => (
             <div key={stat.label}>
               <dt className="font-mono text-2xl font-semibold tracking-tight text-foreground">

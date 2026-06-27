@@ -2,11 +2,11 @@ import { ArrowUpRight } from 'lucide-react'
 import { SectionHeading } from './section-heading'
 
 const services = [
-  'Mentoring',
-  'Team training',
-  'Speaking',
-  'Consulting',
-  'Private lessons',
+  'Mentorías',
+  'Formación para equipos',
+  'Conferencias',
+  'Consultoría',
+  'Clases particulares',
 ]
 
 export function Contact() {
@@ -23,9 +23,9 @@ export function Contact() {
           <div>
             <SectionHeading
               index="06"
-              eyebrow="Contact"
-              title="Let's build something — or level up your team."
-              description="Whether you need a system architected, a team trained, or a session for your event, I'd be glad to talk."
+              eyebrow="Contacto"
+              title="Construyamos algo o llevemos a tu equipo al siguiente nivel."
+              description="Ya sea que necesites diseñar la arquitectura de un sistema, formar a un equipo o preparar una sesión para tu evento, estaré encantado de conversar."
             />
 
             <div className="mt-8 flex flex-wrap gap-2">
@@ -47,7 +47,7 @@ export function Contact() {
             >
               <div>
                 <div className="font-mono text-xs uppercase tracking-wider text-muted-foreground">
-                  Email
+                  Correo electrónico
                 </div>
                 <div className="mt-1 text-base font-medium text-foreground">
                   hello@franco.dev
@@ -78,7 +78,7 @@ export function Contact() {
               href="mailto:hello@franco.dev"
               className="mt-2 inline-flex items-center justify-center gap-2 rounded-lg bg-foreground px-5 py-3.5 text-sm font-medium text-background transition-opacity hover:opacity-90"
             >
-              Start a conversation
+              Iniciar una conversación
             </a>
           </div>
         </div>

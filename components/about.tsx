@@ -2,16 +2,16 @@ import { SectionHeading } from './section-heading'
 
 const principles = [
   {
-    title: 'I like solving real production problems',
-    body: 'The messy, real-world constraints are the interesting part. I enjoy untangling the bottlenecks that slow a team down and finding a solution that actually fits how they work.',
+    title: 'Me gusta resolver problemas reales de producción',
+    body: 'Las limitaciones complejas del mundo real son la parte interesante. Disfruto detectar los cuellos de botella que frenan a un equipo y encontrar una solución que se adapte de verdad a su forma de trabajar.',
   },
   {
-    title: 'I build tools that improve workflows',
-    body: 'A good editor tool, widget or convention quietly pays for itself every single day. I love building the things that make a whole team faster, calmer and more consistent.',
+    title: 'Creo herramientas que mejoran los flujos de trabajo',
+    body: 'Un buen Editor Tool, widget o convención demuestra su valor cada día. Me encanta crear soluciones que permiten a todo un equipo trabajar con más rapidez, tranquilidad y consistencia.',
   },
   {
-    title: 'I turn solutions into learning',
-    body: 'Every problem I solve becomes something I can teach. I distil real fixes into practical lessons developers can apply to their own projects immediately.',
+    title: 'Convierto soluciones en aprendizaje',
+    body: 'Cada problema que resuelvo se convierte en algo que puedo enseñar. Transformo soluciones reales en lecciones prácticas que los desarrolladores pueden aplicar de inmediato en sus proyectos.',
   },
 ]
 
@@ -22,24 +22,25 @@ export function About() {
         <div className="grid gap-12 lg:grid-cols-[1fr_1.1fr] lg:gap-16">
           <SectionHeading
             index="01"
-            eyebrow="About"
-            title="I build the tools, then teach the workflow."
-            description="What drives me isn't a particular engine feature — it's helping developers and teams work better. I care about the practices, the tooling and the knowledge that make a project easier to build."
+            eyebrow="Sobre mí"
+            title="Creo las herramientas y luego enseño el flujo de trabajo."
+            description="Lo que me impulsa no es una función específica del motor, sino ayudar a desarrolladores y equipos a trabajar mejor. Me importan las prácticas, las herramientas y el conocimiento que facilitan la creación de un proyecto."
           />
 
           <div className="space-y-6 text-pretty leading-relaxed text-muted-foreground">
             <p>
-              I enjoy solving real production problems, building tools that
-              improve development workflows, and turning those real-world
-              solutions into practical learning experiences that developers can
-              immediately apply.
+              Disfruto resolver problemas reales de producción, crear
+              herramientas que mejoran los flujos de desarrollo y convertir esas
+              soluciones en experiencias prácticas de aprendizaje que los
+              desarrolladores puedan aplicar de inmediato.
             </p>
             <p>
-              Gameplay programming is part of my background, but it&apos;s not
-              the point. The thread that runs through everything I do is the
-              same: take something painful in the day-to-day of building Unreal
-              projects, make it smoother with better tools and conventions, and
-              then share how it was done so other developers can do it too.
+              La programación de gameplay forma parte de mi experiencia, pero no
+              es el objetivo central. Todo lo que hago sigue un mismo hilo:
+              identificar una dificultad cotidiana al crear proyectos con
+              Unreal, simplificarla con mejores herramientas y convenciones, y
+              compartir el proceso para que otros desarrolladores también puedan
+              hacerlo.
             </p>
 
             <div className="grid gap-4 pt-4 sm:grid-cols-1">

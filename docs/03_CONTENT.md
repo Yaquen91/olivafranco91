@@ -266,6 +266,73 @@ La marca puede publicar contenido relacionado con:
 
 ---
 
+# Terminología técnica
+
+Todo el contenido de Franco Brand debe escribirse principalmente en español.
+
+Sin embargo, la terminología oficial de Unreal Engine debe mantenerse en inglés.
+
+El objetivo es utilizar el mismo lenguaje que emplea Epic Games en su documentación oficial y el mismo que los desarrolladores encuentran dentro del Editor de Unreal Engine.
+
+## Mantener en inglés
+
+Ejemplos de términos que no deben traducirse:
+
+* Blueprint
+* Blueprint Architecture
+* Utility Widget
+* Utility Blueprint
+* Editor Utility Widget
+* Editor Utility Blueprint
+* Gameplay Ability System (GAS)
+* Gameplay Ability
+* Gameplay Tag
+* Gameplay Cue
+* Enhanced Input
+* Input Mapping Context
+* State Tree
+* Behavior Tree
+* Blackboard
+* MetaSound
+* Actor
+* Actor Component
+* Static Mesh
+* Skeletal Mesh
+* Data Asset
+* Primary Data Asset
+* Data Table
+* Level Instance
+* World Partition
+* Level Streaming
+* Construction Script
+* Event Graph
+* Tick
+* Begin Play
+* Player Controller
+* Game Mode
+* Game State
+* Game Instance
+* Animation Blueprint
+* Animation Montage
+* Niagara
+* Material Instance
+* Material Function
+* Widget Blueprint
+* UMG
+* Control Rig
+* Sequencer
+* Chaos
+* Nanite
+* Lumen
+
+## Regla general
+
+Toda la interfaz, la navegación y la comunicación de la marca deben escribirse en español.
+
+La terminología técnica propia de Unreal Engine debe conservar siempre su nombre oficial en inglés.
+
+Cuando sea necesario, puede acompañarse de una explicación en español, pero nunca reemplazar el término original.
+
 # Contenido que no pertenece a la marca
 
 Evitar contenido cuyo único objetivo sea generar visitas.

@@ -2,31 +2,31 @@ import { BadgeCheck, Users, User, Building2 } from 'lucide-react'
 import { SectionHeading } from './section-heading'
 
 const topics = [
-  'Editor tools & scripting',
-  'Utility widgets',
-  'Automation & validation',
-  'Blueprint architecture',
-  'Developer workflows',
-  'Performance & profiling',
-  'Project structure',
-  'C++ for Blueprint devs',
+  'Editor Tools y scripting',
+  'Utility Widgets',
+  'Automatización y validación',
+  'Blueprint Architecture',
+  'Flujos de trabajo para desarrolladores',
+  'Rendimiento y análisis',
+  'Estructura de proyectos',
+  'C++ para desarrolladores de Blueprint',
 ]
 
 const formats = [
   {
     icon: User,
-    title: 'Individuals',
-    body: 'Mentoring and private lessons focused on the tools and workflow habits that will help your current project most.',
+    title: 'Personas',
+    body: 'Mentorías y clases particulares centradas en las herramientas y los hábitos de trabajo que más ayudarán a tu proyecto actual.',
   },
   {
     icon: Users,
-    title: 'Teams',
-    body: 'On-site or remote workshops that align a whole team on shared tooling, conventions and a faster way of working.',
+    title: 'Equipos',
+    body: 'Talleres presenciales o remotos que alinean a todo el equipo en torno a herramientas y convenciones compartidas, y una forma de trabajar más ágil.',
   },
   {
     icon: Building2,
-    title: 'Institutions',
-    body: 'Structured curricula and guest instruction that bring real production practices into schools and programs.',
+    title: 'Instituciones',
+    body: 'Planes de estudio estructurados y clases especiales que acercan prácticas reales de producción a instituciones educativas y programas de formación.',
   },
 ]
 
@@ -36,9 +36,9 @@ export function Teaching() {
       <div className="mx-auto max-w-6xl px-6 py-24 md:py-28">
         <SectionHeading
           index="04"
-          eyebrow="Teaching"
-          title="Practical instruction, grounded in real work."
-          description="Everything I teach comes from solving real production problems and building real tools. My goal is simple: help developers and teams walk away able to do the same."
+          eyebrow="Formación"
+          title="Enseñanza práctica, basada en trabajo real."
+          description="Todo lo que enseño surge de resolver problemas reales de producción y crear herramientas reales. Mi objetivo es simple: que desarrolladores y equipos puedan hacer lo mismo por su cuenta."
         />
 
         <div className="mt-14 grid gap-6 lg:grid-cols-[1.1fr_1fr]">
@@ -46,32 +46,34 @@ export function Teaching() {
           <div className="flex flex-col gap-6">
             <div className="rounded-xl border border-border bg-card/50 p-6 md:p-8">
               <div className="font-mono text-xs uppercase tracking-widest text-muted-foreground">
-                Teaching Philosophy
+                Filosofía de enseñanza
               </div>
               <h3 className="mt-2 font-heading text-lg font-semibold tracking-tight">
-                Learn it the way it&apos;s actually built.
+                Apréndelo como se crea en la práctica.
               </h3>
               <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
-                I don&apos;t teach features in isolation. I show how tools,
-                workflows and systems fit together in a real project — why the
-                decisions matter and how to keep things maintainable — so what
-                you learn is something you can apply the same day.
+                No enseño funcionalidades de forma aislada. Muestro cómo las
+                herramientas, los flujos y los sistemas se integran en un
+                proyecto real, por qué importan las decisiones y cómo mantener
+                todo sostenible, para que puedas aplicar lo aprendido ese mismo
+                día.
               </p>
             </div>
 
             <div className="rounded-xl border border-border bg-card/50 p-6 md:p-8">
               <div className="font-mono text-xs uppercase tracking-widest text-muted-foreground">
-                Featured Class
+                Curso destacado
               </div>
               <h3 className="mt-2 font-heading text-lg font-semibold tracking-tight">
-                Better Tools & Workflows for Unreal Engine Teams
+                Mejores herramientas y flujos para equipos de Unreal Engine
               </h3>
               <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
-                A signature multi-session class that takes developers from
-                ad-hoc setups to a clean toolset and workflow — editor tools,
-                conventions and a maintainable Blueprint/C++ structure they can
-                reuse across projects. Detailed syllabus and enrollment coming
-                soon.
+                Un curso insignia de varias sesiones que guía a los
+                desarrolladores desde configuraciones improvisadas hasta un
+                conjunto ordenado de herramientas y flujos de trabajo:
+                Editor Tools, convenciones y una estructura
+                Blueprint/C++ sostenible y reutilizable. Próximamente estarán
+                disponibles el programa detallado y la inscripción.
               </p>
             </div>
 
@@ -89,15 +91,15 @@ export function Teaching() {
                 </div>
                 <div>
                   <div className="font-mono text-xs uppercase tracking-widest text-primary">
-                    Certification
+                    Certificación
                   </div>
                   <h3 className="mt-2 font-heading text-xl font-semibold tracking-tight">
                     Epic Authorized Instructor
                   </h3>
                   <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
-                    Reserved space to showcase official Epic Authorized
-                    Instructor certification, credentials and verification once
-                    finalized.
+                    Espacio reservado para presentar la certificación oficial de
+                    Epic Authorized Instructor, las credenciales y su
+                    verificación una vez finalizadas.
                   </p>
                 </div>
               </div>
@@ -108,7 +110,7 @@ export function Teaching() {
           <div className="flex flex-col gap-6">
             <div className="rounded-xl border border-border bg-card/50 p-6 md:p-8">
               <div className="font-mono text-xs uppercase tracking-widest text-muted-foreground">
-                Topics I teach
+                Temas que enseño
               </div>
               <div className="mt-4 flex flex-wrap gap-2">
                 {topics.map((t) => (
@@ -123,7 +125,7 @@ export function Teaching() {
             </div>
 
             <div className="font-mono text-xs uppercase tracking-widest text-muted-foreground">
-              Training for individuals and teams
+              Formación para personas y equipos
             </div>
             {formats.map((f) => (
               <div
