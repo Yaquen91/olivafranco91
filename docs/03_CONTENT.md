@@ -168,6 +168,10 @@ No mostrar únicamente resultados.
 
 Cada proyecto debe contar una historia.
 
+Cada card representa un proyecto completo y real, no una contribución técnica aislada.
+
+Dentro de cada proyecto pueden describirse distintas contribuciones técnicas, herramientas desarrolladas, áreas de participación o aprendizajes, siempre que pertenezcan al mismo contexto de producción.
+
 ## Todos los proyectos deben incluir
 
 * Problema
@@ -177,7 +181,22 @@ Cada proyecto debe contar una historia.
 * Resultado
 * Aprendizajes
 
-El visitante debe comprender qué problema se resolvió y por qué esa solución fue importante.
+El visitante debe comprender:
+
+* qué problema se resolvió;
+* en qué contexto ocurrió;
+* cuál fue el rol de Franco;
+* cómo se implementó la solución;
+* cuál fue el resultado obtenido;
+* qué aprendizajes dejó el proyecto.
+
+## Principio de autenticidad
+
+Priorizar siempre proyectos y experiencias reales.
+
+No presentar como propios proyectos, métricas o resultados ficticios.
+
+Si un proyecto continúa en desarrollo, comunicarlo como una experiencia en curso y no como un caso completamente cerrado.
 
 ---
 
