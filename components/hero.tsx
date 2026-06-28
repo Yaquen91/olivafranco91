@@ -41,11 +41,7 @@ export function Hero() {
           className="fade-up mt-6 max-w-2xl text-pretty text-lg leading-relaxed text-muted-foreground"
           style={{ animationDelay: '120ms' }}
         >
-          Soy Franco, desarrollador de Unreal Engine, creador de herramientas e
-          instructor técnico. Ayudo a desarrolladores y estudios a ser más
-          productivos mediante mejores herramientas, flujos de trabajo y
-          prácticas de desarrollo, y convierto esa experiencia en formación
-          técnica práctica.
+          Soy Franco Oliva, Game Developer especializado en Unreal Engine e Instructor Autorizado por Epic Games. Resuelvo problemas reales de producción creando herramientas y mejores flujos de trabajo, y luego convierto esa experiencia en formación técnica para desarrolladores y estudios.
         </p>
 
         <div
