@@ -1,6 +1,7 @@
 import { Analytics } from '@vercel/analytics/next'
 import type { Metadata, Viewport } from 'next'
 import { Geist, Geist_Mono } from 'next/font/google'
+import { getDictionary } from '@/i18n/dictionary'
 import './globals.css'
 
 const geistSans = Geist({ variable: '--font-geist-sans', subsets: ['latin'] })
@@ -9,23 +10,16 @@ const geistMono = Geist_Mono({
   subsets: ['latin'],
 })
 
+const copy = getDictionary().metadata
+
 export const metadata: Metadata = {
-  title: 'Franco — Desarrollador de Unreal Engine e instructor técnico',
-  description:
-    'Desarrollador de Unreal Engine, especialista en Blueprint e instructor técnico. Creo sistemas de gameplay, Editor Tools y flujos de trabajo listos para producción, y enseño a los equipos a hacer lo mismo.',
+  title: copy.title,
+  description: copy.description,
   generator: 'v0.app',
-  keywords: [
-    'Unreal Engine',
-    'Blueprint',
-    'Sistemas de gameplay',
-    'Editor Tools',
-    'Instructor técnico',
-    'Epic Authorized Instructor',
-  ],
+  keywords: copy.keywords,
   openGraph: {
-    title: 'Franco — Desarrollador de Unreal Engine e instructor técnico',
-    description:
-      'Sistemas de Unreal Engine listos para producción y formación técnica para estudios, equipos y desarrolladores.',
+    title: copy.openGraph.title,
+    description: copy.openGraph.description,
     type: 'website',
   },
 }

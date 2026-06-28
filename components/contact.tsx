@@ -1,15 +1,10 @@
 import { ArrowUpRight } from 'lucide-react'
+import type { Dictionary } from '@/i18n/dictionary'
 import { SectionHeading } from './section-heading'
 
-const services = [
-  'Mentorías',
-  'Formación para equipos',
-  'Conferencias',
-  'Consultoría',
-  'Clases particulares',
-]
+const socialHrefs = ['#', '#', '#', '#']
 
-export function Contact() {
+export function Contact({ copy }: { copy: Dictionary['contact'] }) {
   return (
     <section id="contact" className="relative overflow-hidden">
       <div
@@ -23,13 +18,13 @@ export function Contact() {
           <div>
             <SectionHeading
               index="06"
-              eyebrow="Contacto"
-              title="Construyamos algo o llevemos a tu equipo al siguiente nivel."
-              description="Ya sea que necesites diseñar la arquitectura de un sistema, formar a un equipo o preparar una sesión para tu evento, estaré encantado de conversar."
+              eyebrow={copy.heading.eyebrow}
+              title={copy.heading.title}
+              description={copy.heading.description}
             />
 
             <div className="mt-8 flex flex-wrap gap-2">
-              {services.map((s) => (
+              {copy.services.map((s) => (
                 <span
                   key={s}
                   className="rounded-full border border-border bg-card/60 px-3.5 py-1.5 text-sm text-muted-foreground"
@@ -47,7 +42,7 @@ export function Contact() {
             >
               <div>
                 <div className="font-mono text-xs uppercase tracking-wider text-muted-foreground">
-                  Correo electrónico
+                  {copy.emailLabel}
                 </div>
                 <div className="mt-1 text-base font-medium text-foreground">
                   hello@franco.dev
@@ -57,18 +52,13 @@ export function Contact() {
             </a>
 
             <div className="grid grid-cols-2 gap-4">
-              {[
-                { label: 'LinkedIn', href: '#' },
-                { label: 'YouTube', href: '#' },
-                { label: 'GitHub', href: '#' },
-                { label: 'X / Twitter', href: '#' },
-              ].map((link) => (
+              {copy.socialLinks.map((label, index) => (
                 <a
-                  key={link.label}
-                  href={link.href}
+                  key={label}
+                  href={socialHrefs[index]}
                   className="group flex items-center justify-between rounded-lg border border-border bg-background/60 px-4 py-3.5 text-sm font-medium transition-colors hover:border-primary/40"
                 >
-                  {link.label}
+                  {label}
                   <ArrowUpRight className="h-4 w-4 text-muted-foreground transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
                 </a>
               ))}
@@ -78,7 +68,7 @@ export function Contact() {
               href="mailto:hello@franco.dev"
               className="mt-2 inline-flex items-center justify-center gap-2 rounded-lg bg-foreground px-5 py-3.5 text-sm font-medium text-background transition-opacity hover:opacity-90"
             >
-              Iniciar una conversación
+              {copy.cta}
             </a>
           </div>
         </div>

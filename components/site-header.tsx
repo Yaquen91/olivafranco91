@@ -1,16 +1,9 @@
 'use client'
 
 import { useEffect, useState } from 'react'
+import type { Dictionary } from '@/i18n/dictionary'
 
-const navItems = [
-  { label: 'Sobre mí', href: '#about' },
-  { label: 'Cómo ayudo', href: '#expertise' },
-  { label: 'Proyectos', href: '#projects' },
-  { label: 'Formación', href: '#teaching' },
-  { label: 'Videos', href: '#youtube' },
-]
-
-export function SiteHeader() {
+export function SiteHeader({ copy }: { copy: Dictionary['header'] }) {
   const [scrolled, setScrolled] = useState(false)
   const [open, setOpen] = useState(false)
 
@@ -37,14 +30,14 @@ export function SiteHeader() {
           <span className="flex h-7 w-7 items-center justify-center rounded-md border border-border bg-card font-mono text-xs text-primary">
             F
           </span>
-          <span>Franco</span>
+          <span>{copy.brand}</span>
           <span className="hidden font-mono text-xs text-muted-foreground sm:inline">
-            / Desarrollador UE
+            / {copy.role}
           </span>
         </a>
 
         <nav className="hidden items-center gap-1 md:flex">
-          {navItems.map((item) => (
+          {copy.navigation.map((item) => (
             <a
               key={item.href}
               href={item.href}
@@ -60,11 +53,11 @@ export function SiteHeader() {
             href="#contact"
             className="hidden rounded-md bg-foreground px-4 py-2 text-sm font-medium text-background transition-opacity hover:opacity-90 sm:inline-block"
           >
-            Trabajemos juntos
+            {copy.contactCta}
           </a>
           <button
             type="button"
-            aria-label="Abrir o cerrar menú"
+            aria-label={copy.menuToggleLabel}
             aria-expanded={open}
             onClick={() => setOpen((v) => !v)}
             className="flex h-9 w-9 items-center justify-center rounded-md border border-border md:hidden"
@@ -84,7 +77,7 @@ export function SiteHeader() {
       {open && (
         <nav className="border-t border-border bg-background/95 px-6 py-4 backdrop-blur-xl md:hidden">
           <div className="flex flex-col gap-1">
-            {navItems.map((item) => (
+            {copy.navigation.map((item) => (
               <a
                 key={item.href}
                 href={item.href}
@@ -99,7 +92,7 @@ export function SiteHeader() {
               onClick={() => setOpen(false)}
               className="mt-2 rounded-md bg-foreground px-3 py-2.5 text-center text-sm font-medium text-background"
             >
-              Trabajemos juntos
+              {copy.contactCta}
             </a>
           </div>
         </nav>

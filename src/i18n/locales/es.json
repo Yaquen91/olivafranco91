@@ -1,0 +1,163 @@
+{
+  "metadata": {
+    "title": "Franco — Desarrollador de Unreal Engine e instructor técnico",
+    "description": "Desarrollador de Unreal Engine, especialista en Blueprint e instructor técnico. Creo sistemas de gameplay, Editor Tools y flujos de trabajo listos para producción, y enseño a los equipos a hacer lo mismo.",
+    "keywords": ["Unreal Engine", "Blueprint", "Sistemas de gameplay", "Editor Tools", "Instructor técnico", "Epic Authorized Instructor"],
+    "openGraph": {
+      "title": "Franco — Desarrollador de Unreal Engine e instructor técnico",
+      "description": "Sistemas de Unreal Engine listos para producción y formación técnica para estudios, equipos y desarrolladores."
+    }
+  },
+  "header": {
+    "brand": "Franco",
+    "role": "Desarrollador UE",
+    "navigation": [
+      { "label": "Sobre mí", "href": "#about" },
+      { "label": "Cómo ayudo", "href": "#expertise" },
+      { "label": "Proyectos", "href": "#projects" },
+      { "label": "Formación", "href": "#teaching" },
+      { "label": "Videos", "href": "#youtube" }
+    ],
+    "contactCta": "Trabajemos juntos",
+    "menuToggleLabel": "Abrir o cerrar menú"
+  },
+  "hero": {
+    "availability": "Disponible para estudios, consultoría y formación",
+    "titlePrefix": "Ayudo a desarrolladores a crear mejores proyectos con",
+    "titleHighlight": "Unreal Engine",
+    "description": "Soy Franco Oliva, Game Developer especializado en Unreal Engine e Instructor Autorizado por Epic Games. Resuelvo problemas reales de producción creando herramientas y mejores flujos de trabajo, y luego convierto esa experiencia en formación técnica para desarrolladores y estudios.",
+    "primaryCta": "Ver proyectos",
+    "secondaryCta": "Trabajemos juntos"
+  },
+  "about": {
+    "heading": {
+      "eyebrow": "Sobre mí",
+      "title": "Creo herramientas y comparto el proceso detrás de ellas.",
+      "description": "Lo que me impulsa no es una funcionalidad específica de Unreal Engine, sino ayudar a desarrolladores y equipos a trabajar mejor. Me interesan las prácticas, las herramientas y los workflows que hacen que un proyecto sea más eficiente, mantenible y fácil de desarrollar."
+    },
+    "paragraphs": [
+      "Disfruto resolver problemas reales de producción, crear herramientas que mejoran los flujos de desarrollo y convertir esas soluciones en experiencias prácticas de aprendizaje que los desarrolladores puedan aplicar de inmediato.",
+      "Si bien mi experiencia también incluye el desarrollo en Blueprints, hoy mi principal interés está en crear herramientas, optimizar procesos de trabajo y compartir ese conocimiento con otros desarrolladores.",
+      "Todo lo que hago sigue un mismo objetivo: identificar una dificultad cotidiana al desarrollar proyectos con Unreal Engine, simplificarla mediante mejores herramientas, workflows y buenas prácticas, y compartir el proceso para que otros equipos también puedan beneficiarse."
+    ],
+    "principles": [
+      {
+        "title": "Resuelvo problemas reales de producción",
+        "body": "Disfruto analizar cómo trabajan los equipos durante el desarrollo de un proyecto. Identificar cuellos de botella, tareas repetitivas o procesos poco eficientes es el primer paso para encontrar soluciones que realmente aporten valor."
+      },
+      {
+        "title": "Optimizo flujos de trabajo",
+        "body": "Cuando detecto una oportunidad de mejora, busco la solución más adecuada. A veces es una Editor Tool, otras una convención o una mejora en el workflow. Lo importante no es la herramienta, sino ayudar a que el equipo trabaje de forma más rápida, consistente y mantenible."
+      },
+      {
+        "title": "Comparto conocimiento práctico",
+        "body": "Cada solución se convierte en una oportunidad para enseñar. Me gusta transformar experiencias reales de desarrollo en contenido claro y aplicable, para que otros desarrolladores puedan aprovechar ese aprendizaje en sus propios proyectos."
+      }
+    ]
+  },
+  "expertise": {
+    "heading": {
+      "eyebrow": "Cómo ayudo",
+      "title": "El valor que aporto a un equipo.",
+      "description": "No se trata tanto de lo que sé, sino de lo que cambia cuando participo: mejores herramientas, flujos de trabajo más fluidos y desarrolladores capaces de avanzar más rápido y con confianza."
+    },
+    "areas": [
+      { "title": "Editor Tools", "body": "Utilidades de editor personalizadas que eliminan tareas tediosas y propensas a errores para que los desarrolladores puedan concentrarse en crear el juego." },
+      { "title": "Utility Widgets", "body": "Widgets de editor y ejecución que brindan a diseñadores y artistas un control seguro y autónomo, con menos cuellos de botella de ingeniería para todos." },
+      { "title": "Automatización", "body": "Automatización de tareas repetitivas, validaciones y procesamiento de recursos para que los equipos dediquen su tiempo al trabajo creativo, no a tareas mecánicas." },
+      { "title": "Flujos de trabajo para desarrolladores", "body": "Control de versiones, estructura de proyectos y convenciones de herramientas que mantienen los proyectos de Unreal sólidos y fáciles de gestionar a medida que crecen." },
+      { "title": "Optimización del pipeline", "body": "Análisis y mejora de las partes lentas del pipeline de producción para acelerar la iteración y mantener un rendimiento predecible." },
+      { "title": "Blueprint Architecture", "body": "Sistemas Blueprint legibles y basados en componentes que todo el equipo puede ampliar y mantener, no código espagueti que solo una persona entiende." },
+      { "title": "Formación técnica", "body": "Enseñanza práctica basada en experiencia real de producción que ayuda a los desarrolladores a aplicar mejores prácticas de inmediato." }
+    ],
+    "comingSoon": ["// Próximamente habrá más recursos,", "// cursos y artículos en este espacio."]
+  },
+  "projects": {
+    "heading": {
+      "eyebrow": "Proyectos destacados",
+      "title": "Proyectos reales, problemas concretos.",
+      "description": "Cada proyecto refleja una experiencia real de desarrollo. El objetivo no es mostrar tecnologías, sino explicar el contexto, el problema, la solución implementada y los aprendizajes obtenidos durante el proceso."
+    },
+    "labels": {
+      "problem": "Problema",
+      "solution": "Solución",
+      "implementation": "Implementación",
+      "result": "Resultado",
+      "learnings": "Aprendizajes"
+    },
+    "items": {
+      "LAB-01": {
+        "title": "Laboratorio de Videojuegos",
+        "tag": "Videojuego UGC",
+        "type": "Proyecto colaborativo en Unreal Engine",
+        "imageAlt": "Captura del menú principal de Laboratorio de Videojuegos",
+        "problem": "El equipo necesitaba incorporar assets 3D al proyecto de forma constante, manteniendo nombres, colisiones y registros en Data Tables de manera consistente.",
+        "context": "Proyecto desarrollado en Unreal Engine junto a un pequeño equipo dirigido por Federico Garazo, cofundador de Academia Brinca. Es mi primera experiencia real trabajando dentro de un equipo de desarrollo de videojuegos.",
+        "solution": "Además de colaborar desde el área de arte 3D, comencé a crear herramientas internas para reducir tareas repetitivas y mejorar el flujo de trabajo entre arte y desarrollo.",
+        "implementation": "Importé modelos 3D, los organicé en Data Tables, desarrollé Utility Scripts para acelerar la carga de assets, modificar colisiones en Static Meshes y renombrar assets de forma consistente. También colaboré con Blueprints, revisión de animaciones y soporte técnico dentro del proyecto.",
+        "result": "El flujo de incorporación de contenido se volvió más rápido y ordenado, reduciendo errores manuales y facilitando que el equipo de desarrollo pudiera utilizar los assets con mayor consistencia.",
+        "learnings": "Este proyecto me permitió entender Unreal Engine en un contexto real de producción: colaborar con distintas áreas, detectar fricciones del workflow y convertir problemas cotidianos en herramientas prácticas.",
+        "tech": ["Unreal Engine", "Blueprints", "Editor Utility Scripts", "Data Tables", "Static Meshes", "Arte 3D", "Workflow"]
+      }
+    }
+  },
+  "teaching": {
+    "heading": {
+      "eyebrow": "Formación",
+      "title": "Enseñanza práctica, basada en trabajo real.",
+      "description": "Todo lo que enseño surge de resolver problemas reales de producción y crear herramientas reales. Mi objetivo es simple: que desarrolladores y equipos puedan hacer lo mismo por su cuenta."
+    },
+    "philosophy": {
+      "eyebrow": "Filosofía de enseñanza",
+      "title": "Apréndelo como se crea en la práctica.",
+      "body": "No enseño funcionalidades de forma aislada. Muestro cómo las herramientas, los flujos y los sistemas se integran en un proyecto real, por qué importan las decisiones y cómo mantener todo sostenible, para que puedas aplicar lo aprendido ese mismo día."
+    },
+    "featuredCourse": {
+      "eyebrow": "Curso destacado",
+      "title": "Mejores herramientas y flujos para equipos de Unreal Engine",
+      "body": "Un curso insignia de varias sesiones que guía a los desarrolladores desde configuraciones improvisadas hasta un conjunto ordenado de herramientas y flujos de trabajo: Editor Tools, convenciones y una estructura Blueprint/C++ sostenible y reutilizable. Próximamente estarán disponibles el programa detallado y la inscripción."
+    },
+    "certification": {
+      "eyebrow": "Certificación",
+      "title": "Epic Authorized Instructor",
+      "body": "Espacio reservado para presentar la certificación oficial de Epic Authorized Instructor, las credenciales y su verificación una vez finalizadas."
+    },
+    "topicsLabel": "Temas que enseño",
+    "topics": ["Editor Tools y scripting", "Utility Widgets", "Automatización y validación", "Blueprint Architecture", "Flujos de trabajo para desarrolladores", "Rendimiento y análisis", "Estructura de proyectos", "C++ para desarrolladores de Blueprint"],
+    "formatsLabel": "Formación para personas y equipos",
+    "formats": [
+      { "title": "Personas", "body": "Mentorías y clases particulares centradas en las herramientas y los hábitos de trabajo que más ayudarán a tu proyecto actual." },
+      { "title": "Equipos", "body": "Talleres presenciales o remotos que alinean a todo el equipo en torno a herramientas y convenciones compartidas, y una forma de trabajar más ágil." },
+      { "title": "Instituciones", "body": "Planes de estudio estructurados y clases especiales que acercan prácticas reales de producción a instituciones educativas y programas de formación." }
+    ]
+  },
+  "youtube": {
+    "heading": {
+      "eyebrow": "YouTube",
+      "title": "Videos educativos seleccionados.",
+      "description": "Una biblioteca enfocada que prioriza la profundidad sobre la cantidad. Cada video explica una técnica real de principio a fin."
+    },
+    "channelCta": "Visitar el canal",
+    "videos": [
+      { "title": "Cómo diseñar un sistema de habilidades Blueprint ordenado", "length": "24:10", "category": "Sistemas de gameplay", "description": "Un recorrido por la estructura de habilidades para que los diseñadores puedan ampliarlas sin modificar código gestionado por ingeniería." },
+      { "title": "Editor Utility Widgets desde cero", "length": "18:42", "category": "Editor Tools", "description": "Creación de una herramienta práctica de validación de niveles que detecta errores antes de que lleguen a QA." },
+      { "title": "Análisis de Unreal con Insights", "length": "31:05", "category": "Optimización", "description": "Cómo interpretar una traza, encontrar el verdadero cuello de botella y resolver problemas de rendimiento vinculados al Tick." }
+    ]
+  },
+  "contact": {
+    "heading": {
+      "eyebrow": "Contacto",
+      "title": "Construyamos algo o llevemos a tu equipo al siguiente nivel.",
+      "description": "Ya sea que necesites diseñar la arquitectura de un sistema, formar a un equipo o preparar una sesión para tu evento, estaré encantado de conversar."
+    },
+    "services": ["Mentorías", "Formación para equipos", "Conferencias", "Consultoría", "Clases particulares"],
+    "emailLabel": "Correo electrónico",
+    "socialLinks": ["LinkedIn", "YouTube", "GitHub", "X / Twitter"],
+    "cta": "Iniciar una conversación"
+  },
+  "footer": {
+    "brand": "Franco",
+    "role": "Desarrollador de Unreal Engine",
+    "copyright": "Franco. Creado con Next.js."
+  }
+}

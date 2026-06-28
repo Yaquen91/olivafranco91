@@ -1,6 +1,7 @@
 import { ArrowRight, ArrowUpRight } from 'lucide-react'
+import type { Dictionary } from '@/i18n/dictionary'
 
-export function Hero() {
+export function Hero({ copy }: { copy: Dictionary['hero'] }) {
   return (
     <section
       id="top"
@@ -26,22 +27,22 @@ export function Hero() {
             <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-primary opacity-75" />
             <span className="relative inline-flex h-1.5 w-1.5 rounded-full bg-primary" />
           </span>
-          Disponible para estudios, consultoría y formación
+          {copy.availability}
         </div>
 
         <h1
           className="fade-up mt-8 max-w-4xl text-balance font-heading text-4xl font-semibold leading-[1.05] tracking-tight sm:text-6xl md:text-7xl"
           style={{ animationDelay: '60ms' }}
         >
-          Ayudo a desarrolladores a crear mejores proyectos con{' '}
-          <span className="text-primary">Unreal Engine</span>.
+          {copy.titlePrefix}{' '}
+          <span className="text-primary">{copy.titleHighlight}</span>.
         </h1>
 
         <p
           className="fade-up mt-6 max-w-2xl text-pretty text-lg leading-relaxed text-muted-foreground"
           style={{ animationDelay: '120ms' }}
         >
-          Soy Franco Oliva, Game Developer especializado en Unreal Engine e Instructor Autorizado por Epic Games. Resuelvo problemas reales de producción creando herramientas y mejores flujos de trabajo, y luego convierto esa experiencia en formación técnica para desarrolladores y estudios.
+          {copy.description}
         </p>
 
         <div
@@ -52,35 +53,17 @@ export function Hero() {
             href="#projects"
             className="group inline-flex items-center justify-center gap-2 rounded-md bg-foreground px-5 py-3 text-sm font-medium text-background transition-opacity hover:opacity-90"
           >
-            Ver proyectos
+            {copy.primaryCta}
             <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
           </a>
           <a
             href="#contact"
             className="group inline-flex items-center justify-center gap-2 rounded-md border border-border bg-card/60 px-5 py-3 text-sm font-medium text-foreground transition-colors hover:bg-secondary"
           >
-            Trabajemos juntos
+            {copy.secondaryCta}
             <ArrowUpRight className="h-4 w-4 text-muted-foreground transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
           </a>
         </div>
-        {/* Comentamos datos falsos para reemplazarlos por reales en un futuro */}
-        {/* <dl className="fade-up mt-16 grid max-w-2xl grid-cols-2 gap-x-8 gap-y-8 border-t border-border pt-10 sm:grid-cols-4">
-          {[
-            { value: '8+', label: 'Años con Unreal Engine' },
-            { value: '40+', label: 'Herramientas y sistemas publicados' },
-            { value: '2K+', label: 'Desarrolladores ayudados' },
-            { value: 'Herramientas', label: 'Flujos de trabajo y formación' },
-          ].map((stat) => (
-            <div key={stat.label}>
-              <dt className="font-mono text-2xl font-semibold tracking-tight text-foreground">
-                {stat.value}
-              </dt>
-              <dd className="mt-1 text-sm leading-snug text-muted-foreground">
-                {stat.label}
-              </dd>
-            </div>
-          ))}
-        </dl> */}
       </div>
     </section>
   )

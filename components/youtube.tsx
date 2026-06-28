@@ -1,52 +1,29 @@
 import { Play, ArrowUpRight } from 'lucide-react'
+import type { Dictionary } from '@/i18n/dictionary'
 import { SectionHeading } from './section-heading'
 
-const videos = [
-  {
-    title: 'Cómo diseñar un sistema de habilidades Blueprint ordenado',
-    length: '24:10',
-    category: 'Sistemas de gameplay',
-    description:
-      'Un recorrido por la estructura de habilidades para que los diseñadores puedan ampliarlas sin modificar código gestionado por ingeniería.',
-  },
-  {
-    title: 'Editor Utility Widgets desde cero',
-    length: '18:42',
-    category: 'Editor Tools',
-    description:
-      'Creación de una herramienta práctica de validación de niveles que detecta errores antes de que lleguen a QA.',
-  },
-  {
-    title: 'Análisis de Unreal con Insights',
-    length: '31:05',
-    category: 'Optimización',
-    description:
-      'Cómo interpretar una traza, encontrar el verdadero cuello de botella y resolver problemas de rendimiento vinculados al Tick.',
-  },
-]
-
-export function YouTube() {
+export function YouTube({ copy }: { copy: Dictionary['youtube'] }) {
   return (
     <section id="youtube" className="border-b border-border">
       <div className="mx-auto max-w-6xl px-6 py-24 md:py-28">
         <div className="flex flex-col justify-between gap-6 sm:flex-row sm:items-end">
           <SectionHeading
             index="05"
-            eyebrow="YouTube"
-            title="Videos educativos seleccionados."
-            description="Una biblioteca enfocada que prioriza la profundidad sobre la cantidad. Cada video explica una técnica real de principio a fin."
+            eyebrow={copy.heading.eyebrow}
+            title={copy.heading.title}
+            description={copy.heading.description}
           />
           <a
             href="#"
             className="group inline-flex shrink-0 items-center gap-2 rounded-md border border-border bg-card/60 px-4 py-2.5 text-sm font-medium transition-colors hover:bg-secondary"
           >
-            Visitar el canal
+            {copy.channelCta}
             <ArrowUpRight className="h-4 w-4 text-muted-foreground transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
           </a>
         </div>
 
         <div className="mt-14 grid gap-6 md:grid-cols-3">
-          {videos.map((video) => (
+          {copy.videos.map((video) => (
             <a
               key={video.title}
               href="#"

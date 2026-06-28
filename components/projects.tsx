@@ -1,25 +1,27 @@
 import { projects } from '@/data/projects'
+import type { Dictionary } from '@/i18n/dictionary'
 import { SectionHeading } from './section-heading'
 
-export function Projects() {
+export function Projects({ copy }: { copy: Dictionary['projects'] }) {
   return (
     <section id="projects" className="border-b border-border">
       <div className="mx-auto max-w-6xl px-6 py-24 md:py-28">
         <SectionHeading
           index="03"
-          eyebrow="Proyectos destacados"
-          title="Proyectos reales, problemas concretos."
-          description="Cada proyecto refleja una experiencia real de desarrollo. El objetivo no es mostrar tecnologías, sino explicar el contexto, el problema, la solución implementada y los aprendizajes obtenidos durante el proceso."
+          eyebrow={copy.heading.eyebrow}
+          title={copy.heading.title}
+          description={copy.heading.description}
         />
 
         <div className="mt-14 grid gap-6">
           {projects.map((project) => {
+            const content = copy.items[project.id]
             const projectDetails = [
-              { k: 'Problema', v: project.problem },
-              { k: 'Solución', v: project.solution },
-              { k: 'Implementación', v: project.implementation },
-              { k: 'Resultado', v: project.result },
-              { k: 'Aprendizajes', v: project.learnings },
+              { k: copy.labels.problem, v: content.problem },
+              { k: copy.labels.solution, v: content.solution },
+              { k: copy.labels.implementation, v: content.implementation },
+              { k: copy.labels.result, v: content.result },
+              { k: copy.labels.learnings, v: content.learnings },
             ]
 
             return (
@@ -32,27 +34,27 @@ export function Projects() {
                     {project.id}
                   </span>
                   <span className="rounded-full border border-border px-3 py-1 text-xs text-primary">
-                    {project.tag}
+                    {content.tag}
                   </span>
                 </header>
 
                 <div className="mt-5 grid gap-8 md:grid-cols-[minmax(0,1fr)_minmax(280px,1fr)] lg:grid-cols-[minmax(0,3fr)_minmax(0,2fr)]">
                   <div>
                     <h3 className="text-balance font-heading text-xl font-semibold tracking-tight">
-                      {project.title}
+                      {content.title}
                     </h3>
                     <p className="mt-2 font-mono text-xs text-muted-foreground">
-                      {project.type}
+                      {content.type}
                     </p>
                     <p className="mt-5 text-sm leading-relaxed text-foreground/90">
-                      {project.context}
+                      {content.context}
                     </p>
                   </div>
 
                   <div className="min-h-64 overflow-hidden rounded-xl border border-border bg-secondary">
                     <img
-                      src={project.image.src}
-                      alt={project.image.alt}
+                      src={project.imageSrc}
+                      alt={content.imageAlt}
                       width={1200}
                       height={900}
                       loading="lazy"
@@ -78,7 +80,7 @@ export function Projects() {
                 </dl>
 
                 <div className="mt-6 flex flex-wrap gap-2 border-t border-border pt-6">
-                  {project.tech.map((t) => (
+                  {content.tech.map((t) => (
                     <span
                       key={t}
                       className="rounded-md bg-secondary px-2.5 py-1 font-mono text-xs text-muted-foreground"
