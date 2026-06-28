@@ -1,18 +1,19 @@
 import { SectionHeading } from './section-heading'
 
 const principles = [
-  {
-    title: 'Me gusta resolver problemas reales de producción',
-    body: 'Las limitaciones complejas del mundo real son la parte interesante. Disfruto detectar los cuellos de botella que frenan a un equipo y encontrar una solución que se adapte de verdad a su forma de trabajar.',
-  },
-  {
-    title: 'Creo herramientas que mejoran los flujos de trabajo',
-    body: 'Un buen Editor Tool, widget o convención demuestra su valor cada día. Me encanta crear soluciones que permiten a todo un equipo trabajar con más rapidez, tranquilidad y consistencia.',
-  },
-  {
-    title: 'Convierto soluciones en aprendizaje',
-    body: 'Cada problema que resuelvo se convierte en algo que puedo enseñar. Transformo soluciones reales en lecciones prácticas que los desarrolladores pueden aplicar de inmediato en sus proyectos.',
-  },
+ {
+title: 'Resuelvo problemas reales de producción',
+body: 'Disfruto analizar cómo trabajan los equipos durante el desarrollo de un proyecto. Identificar cuellos de botella, tareas repetitivas o procesos poco eficientes es el primer paso para encontrar soluciones que realmente aporten valor.'
+},
+{
+title: 'Optimizo flujos de trabajo',
+body: 'Cuando detecto una oportunidad de mejora, busco la solución más adecuada. A veces es una Editor Tool, otras una convención o una mejora en el workflow. Lo importante no es la herramienta, sino ayudar a que el equipo trabaje de forma más rápida, consistente y mantenible.'
+},
+{
+title: 'Comparto conocimiento práctico',
+body: 'Cada solución se convierte en una oportunidad para enseñar. Me gusta transformar experiencias reales de desarrollo en contenido claro y aplicable, para que otros desarrolladores puedan aprovechar ese aprendizaje en sus propios proyectos.'
+}
+
 ]
 
 export function About() {
@@ -23,8 +24,8 @@ export function About() {
           <SectionHeading
             index="01"
             eyebrow="Sobre mí"
-            title="Creo las herramientas y luego enseño el flujo de trabajo."
-            description="Lo que me impulsa no es una función específica del motor, sino ayudar a desarrolladores y equipos a trabajar mejor. Me importan las prácticas, las herramientas y el conocimiento que facilitan la creación de un proyecto."
+            title="Creo herramientas y comparto el proceso detrás de ellas."
+            description="Lo que me impulsa no es una funcionalidad específica de Unreal Engine, sino ayudar a desarrolladores y equipos a trabajar mejor. Me interesan las prácticas, las herramientas y los workflows que hacen que un proyecto sea más eficiente, mantenible y fácil de desarrollar."
           />
 
           <div className="space-y-6 text-pretty leading-relaxed text-muted-foreground">
@@ -35,12 +36,10 @@ export function About() {
               desarrolladores puedan aplicar de inmediato.
             </p>
             <p>
-              La programación de gameplay forma parte de mi experiencia, pero no
-              es el objetivo central. Todo lo que hago sigue un mismo hilo:
-              identificar una dificultad cotidiana al crear proyectos con
-              Unreal, simplificarla con mejores herramientas y convenciones, y
-              compartir el proceso para que otros desarrolladores también puedan
-              hacerlo.
+             Si bien mi experiencia también incluye el desarrollo en Blueprints, hoy mi principal interés está en crear herramientas, optimizar procesos de trabajo y compartir ese conocimiento con otros desarrolladores.
+            </p>
+            <p>
+              Todo lo que hago sigue un mismo objetivo: identificar una dificultad cotidiana al desarrollar proyectos con Unreal Engine, simplificarla mediante mejores herramientas, workflows y buenas prácticas, y compartir el proceso para que otros equipos también puedan beneficiarse.
             </p>
 
             <div className="grid gap-4 pt-4 sm:grid-cols-1">
