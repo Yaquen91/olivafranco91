@@ -45,12 +45,12 @@ export function SiteHeader({ copy }: { copy: Dictionary['header'] }) {
               F
             </span>
             <span>{copy.brand}</span>
-            <span className="hidden font-mono text-xs text-muted-foreground sm:inline">
+            <span className="hidden font-mono text-xs text-muted-foreground lg:inline">
               / {copy.role}
             </span>
           </a>
 
-          <nav className="hidden items-center gap-1 md:flex">
+          <nav className="hidden items-center gap-1 lg:flex">
             {copy.navigation.map((item) => (
               <a
                 key={item.href}
@@ -65,7 +65,7 @@ export function SiteHeader({ copy }: { copy: Dictionary['header'] }) {
           <div className="flex items-center gap-3">
             <a
               href="#contact"
-              className="hidden rounded-md bg-foreground px-4 py-2 text-sm font-medium text-background transition-opacity hover:opacity-90 sm:inline-block"
+              className="hidden rounded-md bg-foreground px-4 py-2 text-sm font-medium text-background transition-opacity hover:opacity-90 lg:inline-block"
             >
               {copy.contactCta}
             </a>
@@ -74,7 +74,7 @@ export function SiteHeader({ copy }: { copy: Dictionary['header'] }) {
               aria-label={copy.menuToggleLabel}
               aria-expanded={open}
               onClick={() => setOpen((v) => !v)}
-              className="flex h-9 w-9 items-center justify-center rounded-md border border-border md:hidden"
+              className="flex h-9 w-9 items-center justify-center rounded-md border border-border lg:hidden"
             >
               <div className="flex flex-col gap-1.5">
                 <span
@@ -89,7 +89,7 @@ export function SiteHeader({ copy }: { copy: Dictionary['header'] }) {
         </div>
 
         {open && (
-          <nav className="border-t border-border bg-background/95 px-6 py-4 backdrop-blur-xl md:hidden">
+          <nav className="border-t border-border bg-background/95 px-6 py-4 backdrop-blur-xl lg:hidden">
             <div className="flex flex-col gap-1">
               {copy.navigation.map((item) => (
                 <a
