@@ -151,9 +151,12 @@
       "description": "Ya sea que necesites diseñar la arquitectura de un sistema, formar a un equipo o preparar una sesión para tu evento, estaré encantado de conversar."
     },
     "services": ["Mentorías", "Formación para equipos", "Conferencias", "Consultoría", "Clases particulares"],
+    "cardTitle": "Contacto profesional",
     "emailLabel": "Correo electrónico",
-    "socialLinks": ["LinkedIn", "YouTube", "GitHub", "X / Twitter"],
-    "cta": "Iniciar una conversación"
+    "copyEmail": "Copiar",
+    "emailCopied": "Correo copiado.",
+    "socialLinks": ["YouTube", "ArtStation"],
+    "cta": "Contactarme por LinkedIn"
   },
   "footer": {
     "brand": "Franco",
