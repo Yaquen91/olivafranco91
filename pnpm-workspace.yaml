@@ -3,7 +3,9 @@ packages:
 
 overrides:
   hono: 4.12.25
+  postcss: 8.5.16
 
 allowBuilds:
   sharp: true
   msw: false
+  unrs-resolver: false

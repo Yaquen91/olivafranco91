@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import { projects } from '@/data/projects'
 import type { Dictionary } from '@/i18n/dictionary'
 import { SectionHeading } from './section-heading'
@@ -52,12 +53,12 @@ export function Projects({ copy }: { copy: Dictionary['projects'] }) {
                   </div>
 
                   <div className="min-h-64 overflow-hidden rounded-xl border border-border bg-secondary">
-                    <img
+                    <Image
                       src={project.imageSrc}
                       alt={content.imageAlt}
-                      width={1200}
-                      height={900}
-                      loading="lazy"
+                      width={1672}
+                      height={941}
+                      sizes="(min-width: 1024px) 430px, (min-width: 768px) 50vw, 100vw"
                       className="aspect-[4/3] h-full w-full object-cover md:aspect-auto"
                     />
                   </div>
