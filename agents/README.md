@@ -1,0 +1,4 @@
+- product-lead.md: usar antes de crear nuevas secciones, features o cambios de contenido.
+- software-architect.md: usar antes de tocar estructura, componentes, rutas, datos o patrones técnicos.
+- frontend-quality.md: usar al revisar UI, responsive, accesibilidad y consistencia visual.
+- sweeper.md: usar después de implementar, antes de commitear.
