@@ -1,6 +1,6 @@
 # Franco Brand
 
-Sitio web oficial y marca personal de **Franco Oliva**, Unreal Engine Developer e Instructor.
+Sitio web oficial y marca personal de **Franco Oliva**, desarrollador especializado en Unreal Engine e instructor.
 
 Este proyecto representa el centro de la marca profesional y evolucionará junto con mi carrera como desarrollador e instructor especializado en Unreal Engine.
 
@@ -15,7 +15,7 @@ Crear una plataforma donde compartir:
 * Recursos gratuitos.
 * Formación para desarrolladores y equipos.
 
-El foco de la marca no es únicamente enseñar Unreal Engine, sino ayudar a construir mejores proyectos mediante herramientas, workflows y conocimiento práctico.
+El foco de la marca no es únicamente enseñar Unreal Engine, sino ayudar a construir mejores proyectos mediante herramientas, flujos de trabajo y conocimiento práctico.
 
 ---
 
@@ -33,14 +33,24 @@ El foco de la marca no es únicamente enseñar Unreal Engine, sino ayudar a cons
 
 ## Desarrollo local
 
-El proyecto utiliza pnpm 11.9.0 como gestor de paquetes.
+El proyecto utiliza Node.js 22.22.2 y pnpm 11.9.0. Con NVM for Windows:
 
 ```powershell
-pnpm install --frozen-lockfile
-pnpm run dev
+nvm install 22.22.2
+nvm use 22.22.2
+corepack enable
+corepack pnpm install --frozen-lockfile
+corepack pnpm run dev
 ```
 
 La aplicación estará disponible en `http://localhost:3000`.
+
+Para ejecutar todas las comprobaciones locales:
+
+```powershell
+corepack pnpm run check
+corepack pnpm run build
+```
 
 ---
 

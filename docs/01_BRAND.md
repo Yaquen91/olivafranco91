@@ -25,7 +25,7 @@ La marca es mucho más grande que el sitio.
 
 # Misión
 
-Ayudar a desarrolladores y equipos a construir mejores proyectos con Unreal Engine mediante herramientas, workflows eficientes y formación técnica basada en experiencia real.
+Ayudar a desarrolladores y equipos a construir mejores proyectos con Unreal Engine mediante herramientas, flujos de trabajo eficientes y formación técnica basada en experiencia real.
 
 No quiero enseñar únicamente cómo funciona Unreal Engine.
 
@@ -42,7 +42,7 @@ A largo plazo quiero que Franco Brand sea un lugar donde cualquier desarrollador
 * Editor Tools
 * Utility Widgets
 * Blueprint Architecture
-* Developer Workflows
+* Flujos de trabajo para desarrolladores
 * Automatización de tareas
 * Optimización de pipelines
 * Formación técnica
@@ -66,7 +66,7 @@ Siempre que sea posible, el contenido deberá responder preguntas como:
 * ¿Cómo podemos automatizar esta tarea?
 * ¿Cómo hacemos este Blueprint más mantenible?
 * ¿Cómo puede un diseñador trabajar más rápido?
-* ¿Cómo mejoramos el workflow del equipo?
+* ¿Cómo mejoramos el flujo de trabajo del equipo?
 * ¿Cómo reducimos errores durante el desarrollo?
 * ¿Cómo organizamos un proyecto para que pueda crecer?
 
@@ -90,7 +90,7 @@ La marca se posiciona en la intersección de tres pilares:
 
 Desarrollo de herramientas que simplifican el trabajo dentro de Unreal Engine.
 
-## Mejora de workflows
+## Mejora de flujos de trabajo
 
 Búsqueda constante de procesos que permitan desarrollar videojuegos de forma más eficiente.
 
@@ -111,7 +111,7 @@ Si uno desaparece, la identidad de la marca pierde fuerza.
 * Desarrolladores de Unreal Engine.
 * Equipos de desarrollo.
 * Estudios independientes.
-* Blueprint Developers.
+* Desarrolladores de Blueprint.
 * Technical Artists.
 * Personas que quieran mejorar sus procesos de trabajo.
 
@@ -197,6 +197,34 @@ Nunca debe sentirse:
 
 ---
 
+# Identidad visual
+
+La dirección visual de Franco Brand se define como **Technical Editorial / Unreal Developer**.
+
+La web, el canal de YouTube, las miniaturas y los proyectos deben sentirse parte de una misma identidad profesional.
+
+## Jerarquía cromática
+
+* Negro y carbón para fondos y estructura.
+* Blanco y gris claro para contenido y titulares.
+* Naranja cálido para acciones y conceptos protagonistas.
+* Cyan para Unreal Engine, información técnica y estados interactivos.
+
+El color siempre debe tener una función. La interfaz debe evitar el exceso de glow, la estética cyberpunk, el gaming genérico y la decoración tecnológica sin propósito.
+
+## Recursos visuales
+
+* Titulares fuertes y editoriales.
+* Paneles técnicos oscuros y bordes finos.
+* Numeración editorial y etiquetas mono.
+* Grillas y líneas de fondo extremadamente sutiles.
+* Cortes diagonales discretos.
+* Microinteracciones cortas y precisas.
+
+La marca profesional debe utilizar, cuando corresponda, las formas exactas **FRANCO OLIVA**, **UNREAL AUTHORIZED INSTRUCTOR** y **APRENDER · CREAR · ENSEÑAR**.
+
+---
+
 # Tono de comunicación
 
 La comunicación debe sentirse como una conversación entre desarrolladores.
@@ -234,7 +262,7 @@ Gameplay seguirá formando parte del contenido, pero no será el principal eleme
 
 # Objetivos a largo plazo
 
-* Obtener la certificación como Epic Authorized Instructor.
+* Consolidar mi trabajo como Epic Authorized Instructor.
 * Construir un canal de YouTube con contenido técnico de alta calidad.
 * Publicar cursos completos.
 * Formar equipos de desarrollo.

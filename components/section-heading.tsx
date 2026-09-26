@@ -10,17 +10,17 @@ export function SectionHeading({
   description?: string
 }) {
   return (
-    <div className="max-w-2xl">
-      <div className="flex items-center gap-3 font-mono text-xs uppercase tracking-widest text-primary">
-        <span>{index}</span>
-        <span className="h-px w-8 bg-border" />
+    <div className="min-w-0 max-w-2xl">
+      <div className="flex items-center gap-3 font-mono text-[10px] uppercase tracking-[0.22em]">
+        <span className="text-technical">{index}</span>
+        <span className="h-px w-10 bg-gradient-to-r from-technical/70 to-border" />
         <span className="text-muted-foreground">{eyebrow}</span>
       </div>
-      <h2 className="mt-5 text-balance font-heading text-3xl font-semibold tracking-tight sm:text-4xl">
+      <h2 className="mt-6 text-balance font-display text-3xl font-bold leading-[1.02] tracking-[-0.02em] sm:text-5xl">
         {title}
       </h2>
       {description && (
-        <p className="mt-4 text-pretty text-base leading-relaxed text-muted-foreground">
+        <p className="mt-5 max-w-xl text-pretty text-base leading-relaxed text-muted-foreground">
           {description}
         </p>
       )}

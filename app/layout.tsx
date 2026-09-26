@@ -1,23 +1,43 @@
 import { Analytics } from '@vercel/analytics/next'
 import type { Metadata, Viewport } from 'next'
-import { Geist, Geist_Mono } from 'next/font/google'
-import { getDictionary } from '@/i18n/dictionary'
+import { Barlow_Condensed, Inter, JetBrains_Mono } from 'next/font/google'
+import { siteContent } from '@/content/site'
 import { SITE_URL } from '@/lib/site'
 import './globals.css'
 
-const geistSans = Geist({ variable: '--font-geist-sans', subsets: ['latin'] })
-const geistMono = Geist_Mono({
-  variable: '--font-geist-mono',
+const barlowCondensed = Barlow_Condensed({
+  variable: '--font-barlow-condensed',
   subsets: ['latin'],
+  weight: ['600', '700', '800'],
+  style: ['normal'],
+  display: 'swap',
+  fallback: ['Arial Narrow', 'Arial', 'sans-serif'],
 })
 
-const copy = getDictionary().metadata
+const inter = Inter({
+  variable: '--font-inter',
+  subsets: ['latin'],
+  weight: ['400', '500', '600', '700'],
+  style: ['normal'],
+  display: 'swap',
+  fallback: ['Arial', 'Helvetica', 'sans-serif'],
+})
+
+const jetBrainsMono = JetBrains_Mono({
+  variable: '--font-jetbrains-mono',
+  subsets: ['latin'],
+  weight: ['400', '500', '600'],
+  style: ['normal'],
+  display: 'swap',
+  fallback: ['Cascadia Code', 'Consolas', 'monospace'],
+})
+
+const copy = siteContent.metadata
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: copy.title,
   description: copy.description,
-  generator: 'v0.app',
   keywords: copy.keywords,
   alternates: {
     canonical: '/',
@@ -38,7 +58,7 @@ export const metadata: Metadata = {
 
 export const viewport: Viewport = {
   colorScheme: 'dark',
-  themeColor: '#0a0b0e',
+  themeColor: '#080a0d',
 }
 
 export default function RootLayout({
@@ -49,7 +69,7 @@ export default function RootLayout({
   return (
     <html
       lang="es"
-      className={`${geistSans.variable} ${geistMono.variable} bg-background`}
+      className={`${barlowCondensed.variable} ${inter.variable} ${jetBrainsMono.variable} bg-background`}
     >
       <body className="font-sans antialiased">
         {children}

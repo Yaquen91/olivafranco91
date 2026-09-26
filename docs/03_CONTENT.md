@@ -35,14 +35,12 @@ La web debe demostrar experiencia mediante proyectos reales, herramientas desarr
 
 La navegación debe contar una historia.
 
-El recorrido ideal es:
+El recorrido de la primera versión pública es:
 
 1. Conocer quién soy.
-2. Entender cómo puedo ayudar.
-3. Ver problemas reales que resolví.
-4. Conocer mi forma de enseñar.
-5. Consumir contenido gratuito.
-6. Contactarme.
+2. Ver proyectos reales en los que participo.
+3. Descubrir los vídeos y prototipos técnicos que comparto.
+4. Iniciar una conversación profesional.
 
 Cada sección debe preparar al visitante para la siguiente.
 
@@ -95,7 +93,7 @@ Debe responder una única pregunta:
 
 Desarrollo de herramientas.
 
-Mejora de workflows.
+Mejora de flujos de trabajo.
 
 Formación técnica.
 
@@ -105,11 +103,11 @@ Conocer proyectos.
 
 ## CTA secundario
 
-Trabajar conmigo.
+Ver vídeos.
 
 ---
 
-# About
+# Sobre mí
 
 ## Objetivo
 
@@ -151,14 +149,14 @@ Cada tarjeta debe responder:
 
 * Editor Tools
 * Utility Widgets
-* Developer Workflows
+* Flujos de trabajo para desarrolladores
 * Automatización
 * Blueprint Architecture
 * Formación Técnica
 
 ---
 
-# Projects
+# Proyectos
 
 ## Objetivo
 
@@ -200,7 +198,7 @@ Si un proyecto continúa en desarrollo, comunicarlo como una experiencia en curs
 
 ---
 
-# Teaching
+# Formación
 
 ## Objetivo
 
@@ -214,7 +212,7 @@ Transmitir confianza como instructor.
 
 * Filosofía de enseñanza.
 * Clase destacada.
-* Certificación Epic Authorized Instructor (cuando corresponda).
+* Certificación Epic Authorized Instructor obtenida.
 * Temas que enseño.
 * Formación para personas y equipos.
 
@@ -222,7 +220,7 @@ La certificación debe reforzar la confianza, pero no convertirse en el centro d
 
 ---
 
-# Learning
+# Vídeos
 
 ## Objetivo
 
@@ -230,18 +228,19 @@ Compartir conocimiento gratuito.
 
 Esta sección debe demostrar cómo enseño.
 
-Debe ser el puente entre la web y el canal de YouTube.
+Debe ser el puente entre la web, el canal de YouTube y los prototipos técnicos compartidos en LinkedIn.
+
+Los vídeos publicados deben poder reproducirse dentro del sitio mediante una portada liviana que cargue el reproductor únicamente después de la interacción del visitante.
 
 ## Contenido permitido
 
-* Videos.
-* Mini clases.
-* Artículos.
-* Recursos.
-* Guías.
-* Tutoriales.
+* Vídeos educativos para YouTube.
+* Prototipos técnicos y avances para LinkedIn.
+* Mini clases, artículos, recursos, guías y tutoriales cuando exista contenido real para publicarlos.
 
 Todo el contenido debe resolver problemas reales.
+
+La primera versión pública debe mostrar únicamente contenido existente o claramente identificado como en desarrollo. No debe inventar títulos, métricas, duraciones ni publicaciones.
 
 ---
 
@@ -276,7 +275,7 @@ La marca puede publicar contenido relacionado con:
 * Editor Tools.
 * Automatización.
 * Optimización.
-* Developer Workflows.
+* Flujos de trabajo para desarrolladores.
 * Arquitectura.
 * Herramientas para equipos.
 * Desarrollo de videojuegos.

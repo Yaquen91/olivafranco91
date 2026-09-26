@@ -8,11 +8,11 @@ import {
   GraduationCap,
 } from 'lucide-react'
 import { SectionHeading } from './section-heading'
-import type { Dictionary } from '@/i18n/dictionary'
+import type { SiteContent } from '@/content/site'
 
 const areaIcons = [PenTool, LayoutPanelLeft, Workflow, GitBranch, Gauge, Boxes, GraduationCap]
 
-export function Expertise({ copy }: { copy: Dictionary['expertise'] }) {
+export function Expertise({ copy }: { copy: SiteContent['expertise'] }) {
   return (
     <section id="expertise" className="border-b border-border">
       <div className="mx-auto max-w-6xl px-6 py-24 md:py-28">

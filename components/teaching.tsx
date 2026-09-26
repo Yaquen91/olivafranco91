@@ -1,10 +1,10 @@
 import { BadgeCheck, Users, User, Building2 } from 'lucide-react'
-import type { Dictionary } from '@/i18n/dictionary'
+import type { SiteContent } from '@/content/site'
 import { SectionHeading } from './section-heading'
 
 const formatIcons = [User, Users, Building2]
 
-export function Teaching({ copy }: { copy: Dictionary['teaching'] }) {
+export function Teaching({ copy }: { copy: SiteContent['teaching'] }) {
   return (
     <section id="teaching" className="border-b border-border">
       <div className="mx-auto max-w-6xl px-6 py-24 md:py-28">

@@ -23,8 +23,8 @@
       }
     ],
     "paths": {
-      "@/i18n/*": [
-        "./src/i18n/*"
+      "@/content/*": [
+        "./src/content/*"
       ],
       "@/data/*": [
         "./src/data/*"

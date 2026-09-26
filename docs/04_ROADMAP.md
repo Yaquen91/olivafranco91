@@ -59,10 +59,11 @@ Buscamos una web sólida, rápida y lista para representar la marca.
 * Ajustar CTAs.
 * Reemplazar contenido ficticio.
 * Revisar responsive.
+* Mantener la navegación inicial enfocada en Sobre mí, Proyectos, Vídeos y Contacto.
 
 ---
 
-### About
+### Sobre mí
 
 * Escribir contenido definitivo.
 * Incorporar historia profesional.
@@ -70,49 +71,48 @@ Buscamos una web sólida, rápida y lista para representar la marca.
 
 ---
 
-### How I Help
+### Cómo ayudo
 
-* Revisar tarjetas.
-* Adaptar el contenido a la propuesta de valor real.
-* Mantener foco en herramientas y workflows.
+* Sección pospuesta y oculta temporalmente.
+* Recuperarla cuando exista una necesidad concreta de presentar servicios.
 
 ---
 
-### Projects
+### Proyectos
 
 * Reemplazar proyectos ficticios.
 * Incorporar proyectos reales.
 * Preparar estructura de casos de estudio.
+* Presentar Laboratorio de Videojuegos como proyecto en su etapa final de desarrollo.
 
 ---
 
-### Teaching
+### Formación
 
-* Adaptar contenido.
-* Reservar espacio para Epic Authorized Instructor.
-* Incorporar la clase destacada cuando esté disponible.
+* Certificación Epic Authorized Instructor obtenida.
+* Sección pospuesta y oculta temporalmente hasta contar con una propuesta formativa concreta.
 
 ---
 
-### Learning
+### Vídeos
 
-* Cambiar enfoque de "Videos" a "Learning".
-* Integrar contenido gratuito.
-* Preparar estructura para crecer con nuevos recursos.
+* Conectar la web con el contenido educativo de YouTube.
+* Mostrar el proceso de prototipos técnicos compartido en LinkedIn.
+* Preparar una estructura que pueda crecer sin inventar contenido todavía inexistente.
 
 ---
 
 ### Contacto
 
-* Configurar información real.
-* Revisar CTA.
-* Preparar formulario de contacto.
+* Publicar información de contacto real.
+* Facilitar el contacto por correo electrónico y LinkedIn.
+* Mantener la sección simple, sin formulario mientras no exista una necesidad concreta.
 
 ---
 
 # Fase 2 — Contenido
 
-Estado: ⏳ Pendiente
+Estado: 🔄 En desarrollo
 
 ## Objetivo
 
@@ -140,7 +140,7 @@ Consolidar la presencia profesional.
 
 ### Incluye
 
-* Certificación Epic Authorized Instructor.
+* Comunicar la certificación Epic Authorized Instructor ya obtenida.
 * Integración del video de evaluación.
 * Optimización SEO.
 * Mejoras de rendimiento.
