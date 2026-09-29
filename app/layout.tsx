@@ -42,6 +42,8 @@ export const metadata: Metadata = {
   alternates: {
     canonical: '/',
   },
+  authors: [{ name: 'Franco Oliva', url: '/' }],
+  creator: 'Franco Oliva',
   icons: {
     icon: '/icon.svg',
     apple: '/apple-icon.png',
@@ -51,8 +53,13 @@ export const metadata: Metadata = {
     description: copy.openGraph.description,
     type: 'website',
     url: '/',
-    siteName: 'Franco',
+    siteName: 'Franco Oliva',
     locale: 'es_AR',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: copy.openGraph.title,
+    description: copy.openGraph.description,
   },
 }
 
