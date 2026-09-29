@@ -160,33 +160,30 @@ Cada tarjeta debe responder:
 
 ## Objetivo
 
-Demostrar experiencia mediante casos reales.
-
-No mostrar únicamente resultados.
-
-Cada proyecto debe contar una historia.
+Demostrar experiencia mediante proyectos reales y contribuciones concretas.
 
 Cada card representa un proyecto completo y real, no una contribución técnica aislada.
 
 Dentro de cada proyecto pueden describirse distintas contribuciones técnicas, herramientas desarrolladas, áreas de participación o aprendizajes, siempre que pertenezcan al mismo contexto de producción.
 
-## Todos los proyectos deben incluir
+## Cada proyecto debe incluir
 
-* Problema
-* Contexto
-* Solución
-* Implementación
-* Resultado
-* Aprendizajes
+* Descripción del proyecto.
+* Contexto y estado actual.
+* Rol y evolución de la participación de Franco.
+* Tareas y contribuciones concretas.
+* Tecnologías utilizadas.
+* Enlace público cuando exista.
 
 El visitante debe comprender:
 
-* qué problema se resolvió;
 * en qué contexto ocurrió;
 * cuál fue el rol de Franco;
-* cómo se implementó la solución;
-* cuál fue el resultado obtenido;
-* qué aprendizajes dejó el proyecto.
+* qué tareas realizó;
+* qué herramientas, sistemas o mejoras aportó;
+* cuál es el estado actual del proyecto.
+
+La estructura de problema, solución, implementación, resultado y aprendizajes queda reservada para futuros casos de estudio individuales cuando exista suficiente contexto para desarrollarlos.
 
 ## Principio de autenticidad
 
@@ -256,12 +253,11 @@ Debe invitar naturalmente a colaborar.
 
 ## Posibles motivos de contacto
 
-* Mentorías.
-* Capacitación para equipos.
-* Charlas.
-* Consultorías.
-* Colaboraciones.
-* Proyectos.
+* Oportunidades laborales como Technical UI Designer.
+* Participación en proyectos con Unreal Engine.
+* Formación técnica.
+* Creación de contenido educativo.
+* Colaboraciones profesionales.
 
 ---
 

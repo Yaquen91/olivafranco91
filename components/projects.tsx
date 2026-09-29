@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import { ArrowUpRight } from 'lucide-react'
 import { projects } from '@/data/projects'
 import type { SiteContent } from '@/content/site'
 import { SectionHeading } from './section-heading'
@@ -17,13 +18,6 @@ export function Projects({ copy }: { copy: SiteContent['projects'] }) {
         <div className="mt-14 grid gap-6">
           {projects.map((project) => {
             const content = copy.items[project.id]
-            const projectDetails = [
-              { k: copy.labels.problem, v: content.problem },
-              { k: copy.labels.solution, v: content.solution },
-              { k: copy.labels.implementation, v: content.implementation },
-              { k: copy.labels.result, v: content.result },
-              { k: copy.labels.learnings, v: content.learnings },
-            ]
 
             return (
               <article
@@ -54,8 +48,23 @@ export function Projects({ copy }: { copy: SiteContent['projects'] }) {
                       {content.type}
                     </p>
                     <p className="mt-6 text-sm leading-relaxed text-foreground/85">
+                      {content.description}
+                    </p>
+                    <p className="mt-4 text-sm leading-relaxed text-muted-foreground">
                       {content.context}
                     </p>
+                    <a
+                      href={content.externalLink.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="group/link mt-6 inline-flex items-center gap-2 text-sm font-semibold text-primary transition-colors hover:text-primary/80 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-ring"
+                    >
+                      {content.externalLink.label}
+                      <ArrowUpRight
+                        className="size-4 transition-transform group-hover/link:translate-x-0.5 group-hover/link:-translate-y-0.5"
+                        aria-hidden="true"
+                      />
+                    </a>
                   </div>
 
                   <div className="diagonal-cut relative min-h-64 overflow-hidden border border-border bg-secondary">
@@ -71,21 +80,35 @@ export function Projects({ copy }: { copy: SiteContent['projects'] }) {
                   </div>
                 </div>
 
-                <dl className="mt-8 flex flex-col border-t border-border pt-2">
-                  {projectDetails.map((row) => (
-                    <div
-                      key={row.k}
-                      className="grid gap-2 border-b border-border py-4 last:border-b-0 sm:grid-cols-[128px_1fr] sm:gap-4"
-                    >
-                      <dt className="font-mono text-[10px] uppercase tracking-[0.16em] text-technical">
-                        {row.k}
-                      </dt>
-                      <dd className="text-sm leading-relaxed text-foreground/90">
-                        {row.v}
-                      </dd>
-                    </div>
-                  ))}
-                </dl>
+                <div className="mt-8 border-t border-border pt-6">
+                  <p className="font-mono text-[10px] uppercase tracking-[0.18em] text-technical">
+                    {copy.labels.participation}
+                  </p>
+                  <p className="mt-3 max-w-4xl text-sm leading-relaxed text-foreground/90">
+                    {content.participation}
+                  </p>
+                </div>
+
+                <div className="mt-8 border-t border-border pt-6">
+                  <p className="font-mono text-[10px] uppercase tracking-[0.18em] text-technical">
+                    {copy.labels.contributions}
+                  </p>
+                  <dl className="mt-4 grid gap-3 sm:grid-cols-2">
+                    {content.contributions.map((contribution) => (
+                      <div
+                        key={contribution.title}
+                        className="border border-border bg-secondary/35 p-4 transition-colors group-hover:border-technical/20"
+                      >
+                        <dt className="font-mono text-[10px] uppercase tracking-[0.16em] text-technical">
+                          {contribution.title}
+                        </dt>
+                        <dd className="mt-2 text-sm leading-relaxed text-foreground/90">
+                          {contribution.body}
+                        </dd>
+                      </div>
+                    ))}
+                  </dl>
+                </div>
 
                 <div className="mt-4 flex flex-wrap gap-2 border-t border-border pt-6">
                   {content.tech.map((t) => (

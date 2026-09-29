@@ -34,26 +34,26 @@
   "about": {
     "heading": {
       "eyebrow": "Sobre mí",
-      "title": "Creo herramientas y comparto el proceso detrás de ellas.",
-      "description": "Lo que me impulsa no es una funcionalidad específica de Unreal Engine, sino ayudar a desarrolladores y equipos a trabajar mejor. Me interesan las prácticas, las herramientas y los flujos de trabajo que hacen que un proyecto sea más eficiente, mantenible y fácil de desarrollar."
+      "title": "Mi experiencia en interfaces encontró una nueva dirección en Unreal Engine.",
+      "description": "Después de cinco años trabajando como Frontend Developer, decidí orientar mi carrera hacia el desarrollo de videojuegos. Hoy aplico esa experiencia en proyectos con Unreal Engine, mientras profundizo en Technical UI y comparto lo que aprendo como Unreal Authorized Instructor."
     },
     "paragraphs": [
-      "Disfruto resolver problemas reales de producción, crear herramientas que mejoran los flujos de desarrollo y convertir esas soluciones en experiencias prácticas de aprendizaje que los desarrolladores puedan aplicar de inmediato.",
-      "Si bien mi experiencia también incluye el desarrollo en Blueprints, hoy mi principal interés está en crear herramientas, optimizar procesos de trabajo y compartir ese conocimiento con otros desarrolladores.",
-      "Todo lo que hago sigue un mismo objetivo: identificar una dificultad cotidiana al desarrollar proyectos con Unreal Engine, simplificarla mediante mejores herramientas, flujos de trabajo y buenas prácticas, y compartir el proceso para que otros equipos también puedan beneficiarse."
+      "Mi experiencia en desarrollo frontend me enseñó a pensar en interfaces, componentes reutilizables, arquitectura, experiencia de usuario y mantenibilidad. Al comenzar a trabajar con Unreal Engine, encontré una forma de trasladar esos conocimientos a la creación de videojuegos.",
+      "Actualmente participo en proyectos propios y colaborativos utilizando Blueprints, UMG y Utility Tools. Mi interés está especialmente en Technical UI: conectar interfaces con sistemas de gameplay y construir soluciones claras, funcionales y reutilizables.",
+      "La enseñanza forma parte del mismo proceso. Desarrollo, documento y convierto lo aprendido en contenido y formación técnica para ayudar a otros desarrolladores a comprender Unreal Engine desde la práctica."
     ],
     "principles": [
       {
-        "title": "Resuelvo problemas reales de producción",
-        "body": "Disfruto analizar cómo trabajan los equipos durante el desarrollo de un proyecto. Identificar cuellos de botella, tareas repetitivas o procesos poco eficientes es el primer paso para encontrar soluciones que realmente aporten valor."
+        "title": "Desarrollo en Unreal Engine",
+        "body": "Trabajo en proyectos propios y colaborativos implementando sistemas con Blueprints, Utility Tools e interfaces integradas al gameplay."
       },
       {
-        "title": "Optimizo flujos de trabajo",
-        "body": "Cuando detecto una oportunidad de mejora, busco la solución más adecuada. A veces es una Editor Tool, otras una convención o una mejora en el flujo de trabajo. Lo importante no es la herramienta, sino ayudar a que el equipo trabaje de forma más rápida, consistente y mantenible."
+        "title": "Technical UI",
+        "body": "Combino mi experiencia previa en interfaces con UMG y Blueprints para crear widgets funcionales, reutilizables y preparados para crecer junto al proyecto."
       },
       {
-        "title": "Comparto conocimiento práctico",
-        "body": "Cada solución se convierte en una oportunidad para enseñar. Me gusta transformar experiencias reales de desarrollo en contenido claro y aplicable, para que otros desarrolladores puedan aprovechar ese aprendizaje en sus propios proyectos."
+        "title": "Formación técnica",
+        "body": "Como Unreal Authorized Instructor, transformo experiencias reales de desarrollo en explicaciones claras, contenido educativo y formación aplicable."
       }
     ]
   },
@@ -77,29 +77,53 @@
   "projects": {
     "heading": {
       "eyebrow": "Proyectos destacados",
-      "title": "Proyectos reales, problemas concretos.",
-      "description": "Cada proyecto refleja una experiencia real de desarrollo. El objetivo no es mostrar tecnologías, sino explicar el contexto, el problema, la solución implementada y los aprendizajes obtenidos durante el proceso."
+      "title": "Mi trabajo en proyectos reales.",
+      "description": "Estos proyectos muestran mi experiencia trabajando con Unreal Engine, las responsabilidades que asumí y las herramientas, sistemas y mejoras que aporté durante el proceso."
     },
     "labels": {
-      "problem": "Problema",
-      "solution": "Solución",
-      "implementation": "Implementación",
-      "result": "Resultado",
-      "learnings": "Aprendizajes"
+      "participation": "Mi participación",
+      "contributions": "Tareas y contribuciones"
     },
     "items": {
       "LAB-01": {
         "title": "Laboratorio de Videojuegos",
-        "tag": "Videojuego UGC",
-        "type": "Proyecto colaborativo en Unreal Engine · En etapa final",
+        "tag": "Demo 0.9 disponible",
+        "type": "Videojuego educativo con UGC · Versión 1.0 en desarrollo",
         "imageAlt": "Captura del menú principal de Laboratorio de Videojuegos",
-        "problem": "El equipo necesitaba incorporar recursos 3D al proyecto de forma constante, manteniendo nombres, colisiones y registros en Data Tables de manera consistente.",
-        "context": "Proyecto desarrollado en Unreal Engine junto a un pequeño equipo dirigido por Federico Garazo, cofundador de Academia Brinca. Es mi primera experiencia real trabajando dentro de un equipo de desarrollo de videojuegos y actualmente se encuentra en su etapa final.",
-        "solution": "Además de colaborar desde el área de arte 3D, comencé a crear herramientas internas para reducir tareas repetitivas y mejorar el flujo de trabajo entre arte y desarrollo.",
-        "implementation": "Importé modelos 3D, los organicé en Data Tables, desarrollé Utility Scripts para acelerar la carga de recursos, modificar colisiones en Static Meshes y renombrar recursos de forma consistente. También colaboré con Blueprints, revisión de animaciones y soporte técnico dentro del proyecto.",
-        "result": "El flujo de incorporación de contenido se volvió más rápido y ordenado, reduciendo errores manuales y facilitando que el equipo de desarrollo pudiera utilizar los recursos con mayor consistencia.",
-        "learnings": "Este proyecto me permitió entender Unreal Engine en un contexto real de producción: colaborar con distintas áreas, detectar fricciones del flujo de trabajo y convertir problemas cotidianos en herramientas prácticas.",
-        "tech": ["Unreal Engine", "Blueprints", "Editor Utility Scripts", "Data Tables", "Static Meshes", "Arte 3D", "Workflow"]
+        "description": "Laboratorio de Videojuegos es una experiencia educativa que enseña los fundamentos del diseño y desarrollo de videojuegos a través del juego. Los jugadores superan desafíos, exploran niveles y descubren cómo funcionan distintas mecánicas. Su sistema UGC permite crear niveles de plataformas mediante un editor visual, compartirlos con la comunidad y jugar las creaciones de otros usuarios.",
+        "context": "El proyecto fue impulsado por Federico Garazo y desarrollado dentro de la incubadora de Surprised Monkey. Actualmente cuenta con una demo 0.9 disponible en Steam y el equipo se encuentra trabajando en la versión final 1.0.",
+        "participation": "Comencé en el proyecto como Artista 3D, encargándome de importar packs de Kenney y configurar los recursos mediante Data Tables. Gracias a mi experiencia previa en programación, amplié progresivamente mi participación al área de Desarrollo. Actualmente colaboro en ambas áreas y mi trabajo está centrado principalmente en resolver bugs y preparar el proyecto para su versión final.",
+        "contributions": [
+          {
+            "title": "Integración de assets",
+            "body": "Importación y configuración de packs de Kenney, organización de Static Meshes y mantenimiento de sus registros en Data Tables."
+          },
+          {
+            "title": "Utility Tools",
+            "body": "Desarrollo de herramientas para modificar de forma masiva colisiones, materiales y nombres de Static Meshes, además de incorporar múltiples recursos a una Data Table."
+          },
+          {
+            "title": "Generación de iconos",
+            "body": "Creación de un Editor Utility Widget que captura Static Meshes y genera los iconos utilizados por el proyecto."
+          },
+          {
+            "title": "Blueprints y widgets",
+            "body": "Implementación de funcionalidades con Blueprints y ajustes de lógica en widgets existentes."
+          },
+          {
+            "title": "Animación y acabado visual",
+            "body": "Corrección de animaciones y creación de estilos visuales mediante Post Process Volumes."
+          },
+          {
+            "title": "Resolución de bugs",
+            "body": "Identificación y corrección de errores detectados en la demo 0.9 mientras el equipo avanza hacia la versión final 1.0."
+          }
+        ],
+        "externalLink": {
+          "label": "Ver demo en Steam",
+          "href": "https://store.steampowered.com/app/5021570/Laboratorio_de_Videojuegos_Demo/"
+        },
+        "tech": ["Unreal Engine", "Blueprints", "Editor Utility Widgets", "Data Tables", "Static Meshes", "Materials", "Post Process Volumes"]
       }
     }
   },
@@ -139,7 +163,7 @@
       "title": "Unreal Engine, explicado desde la práctica.",
       "description": "Comparto mi recorrido y convierto problemas reales, prototipos técnicos y aprendizajes de producción en contenido que puedas aplicar a tus propios proyectos."
     },
-    "libraryLabel": "2 vídeos publicados",
+    "libraryLabel": "4 vídeos publicados",
     "channelCta": "Ver canal completo",
     "playLabel": "Reproducir vídeo",
     "watchOnYoutube": "Ver en YouTube",
@@ -153,24 +177,36 @@
       {
         "id": "r0rwraoI2oM",
         "index": "02",
-        "category": "Tutorial · Unreal Engine 5.7",
+        "category": "Tutorial · UMG",
         "title": "Cómo hacer un MENÚ 3D en Unreal Engine 5.7 | UMG desde cero"
+      },
+      {
+        "id": "qQnTKaNwuxQ",
+        "index": "03",
+        "category": "Tutorial · UMG",
+        "title": "Cómo hacer una BARRA DE VIDA en Unreal Engine | Binding vs Eventos"
+      },
+      {
+        "id": "eVWl1aKdjLw",
+        "index": "04",
+        "category": "Tutorial · UMG",
+        "title": "Deja de duplicar Widgets en Unreal Engine | UMG Reutilizable"
       }
     ]
   },
   "contact": {
     "heading": {
       "eyebrow": "Contacto",
-      "title": "Construyamos algo o llevemos a tu equipo al siguiente nivel.",
-      "description": "Ya sea que necesites diseñar la arquitectura de un sistema, formar a un equipo o preparar una sesión para tu evento, estaré encantado de conversar."
+      "title": "Hablemos de proyectos, oportunidades y formación.",
+      "description": "Estoy abierto a oportunidades como Technical UI Designer y a colaborar en proyectos con Unreal Engine. También puedes contactarme para propuestas de formación, contenido educativo o colaboraciones relacionadas con UI y desarrollo de videojuegos."
     },
-    "services": ["Mentorías", "Formación para equipos", "Conferencias", "Consultoría", "Clases particulares"],
-    "cardTitle": "Contacto profesional",
+    "services": ["Oportunidades laborales", "Technical UI", "Proyectos con Unreal Engine", "Formación técnica", "Contenido educativo"],
+    "cardTitle": "Conectemos",
     "emailLabel": "Correo electrónico",
     "copyEmail": "Copiar",
     "emailCopied": "Correo copiado.",
     "socialLinks": ["YouTube", "ArtStation"],
-    "cta": "Contactarme por LinkedIn"
+    "cta": "Escribirme por LinkedIn"
   },
   "footer": {
     "brand": "FRANCO OLIVA",
