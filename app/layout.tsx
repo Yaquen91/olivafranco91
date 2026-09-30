@@ -45,8 +45,14 @@ export const metadata: Metadata = {
   authors: [{ name: 'Franco Oliva', url: '/' }],
   creator: 'Franco Oliva',
   icons: {
-    icon: '/icon.svg',
-    apple: '/apple-icon.png',
+    icon: [
+      { url: '/icon.svg', type: 'image/svg+xml' },
+      { url: '/icon-dark-32x32.png', sizes: '32x32', type: 'image/png' },
+    ],
+    shortcut: '/icon-dark-32x32.png',
+    apple: [
+      { url: '/apple-icon.png', sizes: '180x180', type: 'image/png' },
+    ],
   },
   openGraph: {
     title: copy.openGraph.title,
